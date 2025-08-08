@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
   m_Name: LM - Hallway
   m_EditorClassIdentifier: 
-  resolution: 2048
+  resolution: 4096
   bitmask: 1
   id: 0
   sortingID: 0
@@ -27,7 +27,7 @@ MonoBehaviour:
   containsTerrains: 0
   probes: 0
   mode: 0
-  renderMode: 1000
+  renderMode: 0
   renderDirMode: 1000
   atlasPacker: 1000
   holeFilling: 0
@@ -43,4 +43,4 @@ MonoBehaviour:
   overridePath: 
   fixPos3D: 0
   voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 35
+  passedFilter: 1

@@ -401,7 +401,8 @@ MonoBehaviour:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
   - Assets/_KYSS/Models/KYSS Castle Joined.fbx
-  uvOverlapAssetList: 00000000ffffffff01010000
+  - Assets/_KYSS/Models/KYSS Castle Colliders.fbx
+  uvOverlapAssetList: 00000000ffffffff0101000001010000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 4090

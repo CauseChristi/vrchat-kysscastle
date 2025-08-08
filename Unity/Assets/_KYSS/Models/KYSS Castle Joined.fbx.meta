@@ -62,6 +62,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Atlas - Character Card Labels
+    second: {fileID: 2100000, guid: d2798bcace476e545a627246cbd4c40a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Atlas - Character Cards
     second: {fileID: 2100000, guid: b62a572b99b80d64aacbf982f2a517a8, type: 2}
   - first:
@@ -72,6 +77,41 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Atlas - Pillows
+    second: {fileID: 2100000, guid: a8bae94b2a60b614ca63fdc20b5048a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - Romantasy Books
+    second: {fileID: 2100000, guid: 2c04cb6eb00cb234dbaa6fffef140a2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - Romantasy Furniture
+    second: {fileID: 2100000, guid: 21d77e2723e192f4d9b94fde91369ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - Romantasy Props
+    second: {fileID: 2100000, guid: 57c965474d1e16747858a382cd6ff8e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - RomantasyProps2Shiny
+    second: {fileID: 2100000, guid: f7340e4ef9124bb42bafa425ceecb0ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - Romantic
+    second: {fileID: 2100000, guid: f7515682b9fa1644abb336cb0bfd04b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - RomatasyGlow
+    second: {fileID: 2100000, guid: 57c220437d11d1142a5c05ba46772532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Atlas - Throw Rugs
     second: {fileID: 2100000, guid: e6553b6d12076e841b892c6488c5215b, type: 2}
   - first:
@@ -79,6 +119,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Atlas_AuthorName
     second: {fileID: 2100000, guid: 97b8aad2a98028b489b811d2e0518268, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas_NewAdultArt
+    second: {fileID: 2100000, guid: e310f78a178ed5f40abb44a0a90857df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas_NewAdultFurniture
+    second: {fileID: 2100000, guid: 99f675dede2b3af44b598eed9109f01a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -162,6 +212,21 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Ceremic
+    second: {fileID: 2100000, guid: 94945b56ec2848344b2e24be8609bd62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chaise - Blue
+    second: {fileID: 2100000, guid: cc2da30b2e208954da5fe39dc0b9f163, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chaise - Pink
+    second: {fileID: 2100000, guid: de5cca3405fca4049a176923e289b049, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Chandalier Light
     second: {fileID: 2100000, guid: e6364a758979e5440840c1d3db60edda, type: 2}
   - first:
@@ -189,6 +254,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: CircularWoodenBookshelfTop
     second: {fileID: 2100000, guid: 89d1c5d27a22f774a91651371adc942d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corazones
+    second: {fileID: 2100000, guid: c12bbb84af79efa43b77dcfa81e5e1be, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -417,8 +487,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Hot Chocolate
+    second: {fileID: 2100000, guid: 44a463ee9ef36bc4f8d2009074086c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: KYSS Garden Light
     second: {fileID: 2100000, guid: 92f19032d69c41d4584c7842c59e52eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Large Gold Portrait Frame
+    second: {fileID: 2100000, guid: a3ee3465e8132bd4ba79aca712f2f6c0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -612,6 +692,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: M_MagicPotionBase
+    second: {fileID: 2100000, guid: 1654ca68c8662964db78a8240fc2a090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_MagicPotionGlass
+    second: {fileID: 2100000, guid: 7d37788c937fdbb4fae723af562f5c2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Mace
     second: {fileID: 2100000, guid: 3647f74f13ad7354187759556d683051, type: 2}
   - first:
@@ -659,6 +749,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: ModernTableMetal
     second: {fileID: 2100000, guid: f8c132ede14e52b47a20ba501b1b50f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mossy Tile Floor
+    second: {fileID: 2100000, guid: 80dbf6691b5e9d941b196f509be24a1a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -792,6 +887,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Tapadera
+    second: {fileID: 2100000, guid: f308662e2bd0d3b4d827a04204faf967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Temp Cinema Screen
     second: {fileID: 2100000, guid: b082b2206daffed48aab2d7c4dc7ad17, type: 2}
   - first:
@@ -802,6 +902,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: TreasureChest2
+    second: {fileID: 2100000, guid: 9a56b4317e608cc4dbce921cb9401f3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Video Screen
     second: {fileID: 2100000, guid: b0a51d0252f98a2449b3c829b6191f4c, type: 2}
   - first:
@@ -809,6 +914,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Wall Color Dark
     second: {fileID: 2100000, guid: 543eb49783369664b95a11d08fc97742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 67685713eac06fe48b4f2b2a1f7f122f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -852,6 +962,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 0041ab23104f6ba4687e54690f9c02bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: sacura_branch_1
     second: {fileID: 2100000, guid: ca0c3a60c22f3b04e9ac33b38a8e832c, type: 2}
   - first:
@@ -864,6 +979,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: sacura_branch_3
     second: {fileID: 2100000, guid: 3884a7aff6460bc4db35622af2fd3ffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood.001
+    second: {fileID: 2100000, guid: f6ea0ab5b77e1974db8184797e2de5b8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -938,7 +1058,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -953,11 +1073,11 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
