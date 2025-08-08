@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Medieval Floor 8
-  m_Shader: {fileID: 10704, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 10708, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -18,7 +18,6 @@ Material:
   - BAKERY_SHNONLINEAR
   - _BAKERY_NONE
   - _LIGHTMAPSPECULAR
-  - _NORMALMAP
   - _SPECGLOSSMAP
   - _USE_EMISSIVE
   m_LightmapFlags: 4
@@ -32,7 +31,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: d757cb9afc23f25408863d0d1bd471ae, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DFG:
@@ -52,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: b582b17f0e346c24188b4e86cc8950b3, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -60,11 +59,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 0329f88e1a406644c97d0ec094ab70e2, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: c3b93488fd8a11847ad12e8710e6866a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -97,12 +96,12 @@ Material:
     - _DstBlend: 0
     - _ExposureOcclusion: 0.2
     - _GlossMapScale: 1
-    - _Glossiness: 0.479
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _LTCGI: 0
     - _LightmapSpecular: 1
     - _LightmapSpecularMaxSmoothness: 1
-    - _Metallic: 0.324
+    - _Metallic: 0
     - _Mode: 0
     - _NormalMapShadows: 0
     - _OcclusionStrength: 1

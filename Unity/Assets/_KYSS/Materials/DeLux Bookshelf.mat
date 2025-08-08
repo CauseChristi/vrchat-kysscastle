@@ -13,7 +13,6 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _LIGHTMAPSPECULAR
-  - _NORMALMAP
   m_InvalidKeywords:
   - BAKERY_LMSPEC
   - BAKERY_SH
@@ -32,7 +31,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 7f3cb8f31c2289c43b77a17f87f0b1e3, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DFG:
@@ -88,7 +87,7 @@ Material:
     - _AlphaToMaskMode: 0
     - _Bakery: 0
     - _BakeryVertexLM: 0
-    - _BumpScale: 1
+    - _BumpScale: 0
     - _BumpShadowHardness: 50
     - _BumpShadowHeightScale: 0.2
     - _CullMode: 2
@@ -97,12 +96,12 @@ Material:
     - _DstBlend: 0
     - _ExposureOcclusion: 0.2
     - _GlossMapScale: 1
-    - _Glossiness: 0.845
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _LTCGI: 0
     - _LightmapSpecular: 1
     - _LightmapSpecularMaxSmoothness: 1
-    - _Metallic: 0.484
+    - _Metallic: 0
     - _Mode: 0
     - _NormalMapShadows: 0
     - _OcclusionStrength: 1
