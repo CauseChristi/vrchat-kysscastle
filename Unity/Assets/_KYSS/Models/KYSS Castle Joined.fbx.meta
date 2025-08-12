@@ -152,6 +152,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Books - New Adult & Cosy
+    second: {fileID: 2100000, guid: 8075cc1c5295eb149be77306c52b6411, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Books - Romantasy & RomCom
+    second: {fileID: 2100000, guid: 5654c6837f2d3ae4cb299b110ac615b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Bowl of Fruit
     second: {fileID: 2100000, guid: c258d48212fc2a343b56940f1dd1cbf5, type: 2}
   - first:
@@ -742,6 +752,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MedievalChandelierFire.001
+    second: {fileID: 2100000, guid: 10049330d5225374f81063f269a1e945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: ModernTableMarble
     second: {fileID: 2100000, guid: 6aaf4516768e7eb44be5c006c7a1e0f3, type: 2}
   - first:
@@ -983,7 +998,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: wood.001
-    second: {fileID: 2100000, guid: f6ea0ab5b77e1974db8184797e2de5b8, type: 2}
+    second: {fileID: 2100000, guid: 9dd15e93aa8c9bb4f980939a69f5f9e9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
