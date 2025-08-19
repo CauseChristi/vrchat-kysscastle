@@ -403,7 +403,8 @@ MonoBehaviour:
   - Assets/_KYSS/Models/KYSS Castle Joined.fbx
   - Assets/_KYSS/Models/KYSS Castle Colliders.fbx
   - Assets/_KYSS/Models/Focus Book Animated.fbx
-  uvOverlapAssetList: 00000000ffffffff010100000101000001010000
+  - Assets/_KYSS/Models/KYSS Castle Spawn.fbx
+  uvOverlapAssetList: 00000000ffffffff01010000010100000101000001010000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 4090
