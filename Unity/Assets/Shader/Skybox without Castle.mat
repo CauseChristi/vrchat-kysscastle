@@ -60,11 +60,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RotatingTexture:
-        m_Texture: {fileID: 2800000, guid: 04f3809e8ce034aae929ca431743845d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 170d8bd3202944eb384f062832201ff5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StaticTexture:
-        m_Texture: {fileID: 2800000, guid: 5c63222f9a185453ca19499b5431082f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2832fac69e9bd49df9d8a1d018fccd10, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
