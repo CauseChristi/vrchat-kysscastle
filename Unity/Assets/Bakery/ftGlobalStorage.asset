@@ -404,7 +404,10 @@ MonoBehaviour:
   - Assets/_KYSS/Models/KYSS Castle Colliders.fbx
   - Assets/_KYSS/Models/Focus Book Animated.fbx
   - Assets/_KYSS/Models/KYSS Castle Spawn.fbx
-  uvOverlapAssetList: 00000000ffffffff01010000010100000101000001010000
+  - Assets/_KYSS/Models/Dynamic Images.fbx
+  - Assets/DragonPresentation/Dragon/WyvernDragon_breathingfire.fbx
+  - Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Spell-FX.fbx
+  uvOverlapAssetList: 00000000ffffffff01010000010100000101000001010000010100000000000001010000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 4090

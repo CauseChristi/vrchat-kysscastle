@@ -15,7 +15,7 @@ MonoBehaviour:
   resolution: 4096
   bitmask: 1
   id: 1
-  sortingID: 1
+  sortingID: 2
   isImplicit: 0
   area: 0
   totalVertexCount: 0

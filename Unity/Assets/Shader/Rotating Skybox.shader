@@ -14,7 +14,7 @@ Shader "Cause/Rotating Skybox"
 	SubShader
 	{
 		Tags{ "RenderType" = "Opaque"  "Queue" = "Geometry+0" "IsEmissive" = "true"  }
-		Cull Back
+		Cull Off
 		CGPROGRAM
 		#include "UnityShaderVariables.cginc"
 		#pragma target 3.0
