@@ -407,7 +407,14 @@ MonoBehaviour:
   - Assets/_KYSS/Models/Dynamic Images.fbx
   - Assets/DragonPresentation/Dragon/WyvernDragon_breathingfire.fbx
   - Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Spell-FX.fbx
-  uvOverlapAssetList: 00000000ffffffff01010000010100000101000001010000010100000000000001010000
+  - Assets/_KYSS/Models/Props.fbx
+  - Assets/_KYSS/Models/SpawnPoint.fbx
+  - Assets/_KYSS/Models/Environment.fbx
+  - Assets/_KYSS/Models/Colliders.fbx
+  - Assets/_KYSS/Models/DynamicImages.fbx
+  - Assets/_KYSS/Models/Dynamic.fbx
+  - Assets/_KYSS/Models/Spawn.fbx
+  uvOverlapAssetList: 00000000ffffffff0101000001010000010100000101000001010000000000000101000001010000010100000101000001010000010100000101000001010000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 4090

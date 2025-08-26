@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: 663eff9a51b403d479e6b1bc6e3df24e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - Romantasy Books
+    second: {fileID: 2100000, guid: 2c04cb6eb00cb234dbaa6fffef140a2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - Romantasy Furniture
+    second: {fileID: 2100000, guid: 21d77e2723e192f4d9b94fde91369ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - Romantasy Props
+    second: {fileID: 2100000, guid: 57c965474d1e16747858a382cd6ff8e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - RomantasyProps2Shiny
+    second: {fileID: 2100000, guid: f7340e4ef9124bb42bafa425ceecb0ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - Romantic
+    second: {fileID: 2100000, guid: f7515682b9fa1644abb336cb0bfd04b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - RomatasyGlow
+    second: {fileID: 2100000, guid: 57c220437d11d1142a5c05ba46772532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas_NewAdultArt
+    second: {fileID: 2100000, guid: e310f78a178ed5f40abb44a0a90857df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Books - New Adult & Cosy
+    second: {fileID: 2100000, guid: 8075cc1c5295eb149be77306c52b6411, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Books - Romantasy & RomCom
+    second: {fileID: 2100000, guid: 5654c6837f2d3ae4cb299b110ac615b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brushed Chrome
+    second: {fileID: 2100000, guid: ca3edde837049d046b5e8624201c0368, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceremic
+    second: {fileID: 2100000, guid: 94945b56ec2848344b2e24be8609bd62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CinemaDrink
+    second: {fileID: 2100000, guid: 60e608badb1a54446873a49202d5fb08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FantasySword
+    second: {fileID: 2100000, guid: 799c30a00c8d46d40919984a62250f71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlowerRed
+    second: {fileID: 2100000, guid: 9f0f882ff39b43b4e9a6fa9262506c63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlowerYellow
+    second: {fileID: 2100000, guid: 06e91ac93bff9da4ca0d3f7844b30b88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: d77653d3f53a23c4f89e3dea299cc4d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hot Chocolate
+    second: {fileID: 2100000, guid: 44a463ee9ef36bc4f8d2009074086c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Bust_of_Sappho
+    second: {fileID: 2100000, guid: 7289323217895954d975d32beaceeffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_CandleHolder_01
+    second: {fileID: 2100000, guid: e6f0d005cd2fe484da56c39bfbc95c87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Color_1
+    second: {fileID: 2100000, guid: 8660d5485c0e1e548b63231a78366293, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Color_10
+    second: {fileID: 2100000, guid: fac9e3fcf1debbf4280d972e4e494cf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Color_5
+    second: {fileID: 2100000, guid: 2991a9c08ef327440b35b0cb5ae0e019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Color_5.001
+    second: {fileID: 2100000, guid: 2991a9c08ef327440b35b0cb5ae0e019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Color_7
+    second: {fileID: 2100000, guid: ed4318a152b0c51409df02447bb1b289, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Color_9
+    second: {fileID: 2100000, guid: 98875c14a57f07541a18b979af150086, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Teaset
+    second: {fileID: 2100000, guid: 2206d5984bc16484cb6b52c040b396e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Vial_02
+    second: {fileID: 2100000, guid: be08633fed641f04683eca275441bf5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Vial_02_Glass_Vial_54
+    second: {fileID: 2100000, guid: e0672fe9e71be3f4a8cd77ffae473241, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_MagicPotionBase
+    second: {fileID: 2100000, guid: 1654ca68c8662964db78a8240fc2a090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_MagicPotionGlass
+    second: {fileID: 2100000, guid: 7d37788c937fdbb4fae723af562f5c2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MedievalChandelierFire.001
+    second: {fileID: 2100000, guid: 10049330d5225374f81063f269a1e945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Popcorn
+    second: {fileID: 2100000, guid: 7364e56a42f93314098994519c940c8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PopcornBucket
+    second: {fileID: 2100000, guid: 62c1bcc7265119646a820b9a6e1de7d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shiny Gold
+    second: {fileID: 2100000, guid: 69a470796a7a1334392b9a5049f355d7, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

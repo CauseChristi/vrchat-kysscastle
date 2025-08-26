@@ -1,7 +1,8 @@
 ﻿// LocalBillboard.cs
 // UdonSharp (VRChat SDK3 Worlds)
-// Keeps this object facing (and optionally following) the LOCAL player's camera only.
-// Editor testing: assign 'editorFallback' to any Transform (e.g., a scene camera).
+// Faces the local camera by rotating ONLY around Y (no pitch/roll).
+// Uses parent space to avoid weird tilts when the parent is rotated.
+// Editor testing: assign 'editorFallback' to any Transform.
 
 using UdonSharp;
 using UnityEngine;
@@ -10,29 +11,23 @@ using VRC.Udon;
 
 public class LocalBillboard : UdonSharpBehaviour
 {
-    [Header("Billboard Mode")]
-    [Tooltip("Rotate this object to face the camera.")]
-    public bool faceCamera = true;
-
-    [Tooltip("If true, only rotate around global Y (keeps the object upright).")]
-    public bool keepUprightYOnly = true;
-
     [Header("Follow (Position)")]
-    [Tooltip("Also move this object relative to the camera.")]
     public bool followPosition = false;
-
-    [Tooltip("Local-space offset from the camera (x=right, y=up, z=forward).")]
     public Vector3 cameraLocalOffset = new Vector3(0f, -0.05f, 0.5f);
-
-    [Tooltip("If > 0, forces a fixed distance in front of the camera.")]
     public float fixedDistance = 0f;
 
+    [Header("Rotation")]
+    [Tooltip("If true, compute yaw in parent space. If false, use world space.")]
+    public bool yawInParentSpace = true;
+
+    [Tooltip("Add a constant yaw offset if your mesh's forward isn't +Z.")]
+    public float yawOffsetDegrees = 0f;
+
     [Header("Smoothing")]
-    [Tooltip("0 = instant. Higher values smooth more. Try 12–18.")]
+    [Tooltip("0 = instant; try 12–18 for gentle smoothing.")]
     public float smoothSpeed = 0f;
 
     [Header("Update")]
-    [Tooltip("If true, updates in LateUpdate (after animations).")]
     public bool useLateUpdate = true;
 
     [Header("Editor Fallback (no networking)")]
@@ -51,89 +46,89 @@ public class LocalBillboard : UdonSharpBehaviour
 
     private void Update()
     {
-        if (!useLateUpdate) ApplyBillboard();
+        if (!useLateUpdate) Tick();
     }
 
     private void LateUpdate()
     {
-        if (useLateUpdate) ApplyBillboard();
+        if (useLateUpdate) Tick();
     }
 
-    private void ApplyBillboard()
+    private void Tick()
     {
-        // Determine camera pose
+        // --- Get camera pose (local-only) ---
         Vector3 camPos;
         Quaternion camRot;
 
         if (_local != null)
         {
-            // VRChat runtime
             var head = _local.GetTrackingData(VRCPlayerApi.TrackingDataType.Head);
             camPos = head.position;
             camRot = head.rotation;
         }
         else if (editorFallback != null)
         {
-            // Editor/testing fallback (no forbidden APIs)
             camPos = editorFallback.position;
             camRot = editorFallback.rotation;
         }
         else
         {
-            // Nothing to track
             return;
         }
 
-        // --- Target position ---
-        Vector3 targetPos = _t.position;
+        // --- Optional position follow (world space) ---
         if (followPosition)
         {
             Vector3 offset = cameraLocalOffset;
             if (fixedDistance > 0f) offset.z = fixedDistance;
-            targetPos = camPos + (camRot * offset);
-        }
+            Vector3 targetPos = camPos + (camRot * offset);
 
-        // --- Target rotation ---
-        Quaternion targetRot = _t.rotation;
-        if (faceCamera)
-        {
-            if (keepUprightYOnly)
-            {
-                Vector3 toCam = camPos - _t.position;
-                toCam.y = 0f;
-                if (toCam.sqrMagnitude < 0.0001f)
-                {
-                    toCam = camRot * Vector3.forward;
-                    toCam.y = 0f;
-                }
-                if (toCam.sqrMagnitude > 0f)
-                {
-                    toCam.Normalize();
-                    targetRot = Quaternion.LookRotation(toCam, Vector3.up);
-                }
-            }
+            if (smoothSpeed > 0f)
+                _t.position = Vector3.Lerp(_t.position, targetPos, Time.deltaTime * smoothSpeed);
             else
-            {
-                Vector3 lookDir = camPos - _t.position;
-                if (lookDir.sqrMagnitude > 0f)
-                {
-                    lookDir.Normalize();
-                    targetRot = Quaternion.LookRotation(lookDir, camRot * Vector3.up);
-                }
-            }
+                _t.position = targetPos;
         }
 
-        // --- Apply (optionally smoothed) ---
-        if (smoothSpeed > 0f)
+        // --- YAW ONLY rotation ---
+        if (yawInParentSpace && _t.parent != null)
         {
-            float t = Time.deltaTime * smoothSpeed;
-            if (followPosition) _t.position = Vector3.Lerp(_t.position, targetPos, t);
-            if (faceCamera)     _t.rotation = Quaternion.Slerp(_t.rotation, targetRot, t);
+            // Work entirely in parent space so only local Y changes.
+            Vector3 camLocal = _t.parent.InverseTransformPoint(camPos);
+            Vector3 myLocal = _t.localPosition;
+            Vector3 toCamLocal = camLocal - myLocal;
+            toCamLocal.y = 0f;
+
+            if (toCamLocal.sqrMagnitude > 1e-8f)
+            {
+                float yaw = Mathf.Atan2(toCamLocal.x, toCamLocal.z) * Mathf.Rad2Deg + yawOffsetDegrees;
+                Quaternion desiredLocal = Quaternion.Euler(0f, yaw, 0f);
+
+                if (smoothSpeed > 0f)
+                    _t.localRotation = Quaternion.Slerp(_t.localRotation, desiredLocal, Time.deltaTime * smoothSpeed);
+                else
+                    _t.localRotation = desiredLocal;
+            }
         }
         else
         {
-            if (followPosition) _t.position = targetPos;
-            if (faceCamera)     _t.rotation = targetRot;
+            // No parent (or forced world-space): make world yaw only.
+            Vector3 toCam = camPos - _t.position;
+            toCam.y = 0f;
+
+            if (toCam.sqrMagnitude > 1e-8f)
+            {
+                float yaw = Mathf.Atan2(toCam.x, toCam.z) * Mathf.Rad2Deg + yawOffsetDegrees;
+                Quaternion desiredWorld = Quaternion.Euler(0f, yaw, 0f);
+
+                if (smoothSpeed > 0f)
+                    _t.rotation = Quaternion.Slerp(_t.rotation, desiredWorld, Time.deltaTime * smoothSpeed);
+                else
+                    _t.rotation = desiredWorld;
+            }
         }
+
+        // Hard guarantee: zero out any stray tilt from hierarchy math (cheap, safe).
+        Vector3 e = _t.localEulerAngles;
+        _t.localEulerAngles = new Vector3(0f, e.y, 0f);
     }
 }
