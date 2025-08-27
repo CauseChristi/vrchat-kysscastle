@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 8c4dd794e599fa342b5ddb5859c56b83
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas - Statues
+    second: {fileID: 2100000, guid: 6abc43ed76b639f4b9ee6bfb5b53fab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FantasyPlants4_2
+    second: {fileID: 2100000, guid: f3aea32599c1f9f4faa2b1a7e1389589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Forest Moss 2
+    second: {fileID: 2100000, guid: f2f21fc2dd4060e4d8adddd8dc235540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: 69a470796a7a1334392b9a5049f355d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ModernTableMarble
+    second: {fileID: 2100000, guid: 6aaf4516768e7eb44be5c006c7a1e0f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_Cassim_body marble
+    second: {fileID: 2100000, guid: 5ff72a04f53418e46a5f497fd0fca76b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_Cassim_eyeao marble
+    second: {fileID: 2100000, guid: e51bc6695ac23624a899ed08ad4a1aa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_Cassim_eyelash marble
+    second: {fileID: 2100000, guid: 6940f4b4d7c406048b6e956e8bce6fc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_Cassim_eyes marble
+    second: {fileID: 2100000, guid: 0252b9c6bf57e2d4da90b1c315cf9c9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_Cassim_hair marble
+    second: {fileID: 2100000, guid: 50f03d617efa37e4a9937f7a0b94db87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_Cassim_head marble
+    second: {fileID: 2100000, guid: 26dccfe4acea03c4ba1924218e3654c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_Cassim_look marble
+    second: {fileID: 2100000, guid: e3c7c9c78e353f045afb83880d925448, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_Cassim_shoes marble
+    second: {fileID: 2100000, guid: 036c98ba563066c43bba0e7cd423777a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_Cassim_teeth marble
+    second: {fileID: 2100000, guid: a0646206ba44dc6408a1fcfc49fd55b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_Cassim_tongue marble
+    second: {fileID: 2100000, guid: dbfe2035f3858344cb0c38b97517d88a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_body marble
+    second: {fileID: 2100000, guid: b5ab33f201717fd46825571a4f2302ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_eyelash marble
+    second: {fileID: 2100000, guid: 168fb4e935a8bde40ac04b7af546cd68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_eyeo marble
+    second: {fileID: 2100000, guid: 58dd8150f6c76bc4dad241db3a32b2a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_eyes marble
+    second: {fileID: 2100000, guid: df312512d49dd4e4f92f05c7325ab965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_hair marble
+    second: {fileID: 2100000, guid: 8973932e73b18ce409c4b829d5d43367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_hair1 marble
+    second: {fileID: 2100000, guid: b8976d3cb395c0c42aa34216aeb05256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_head marble
+    second: {fileID: 2100000, guid: 7566e677e6d3a7d459ee55b3c93af090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_look marble
+    second: {fileID: 2100000, guid: 600f549ebd91d7f41a8a07f0e4c408b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_shoes marble
+    second: {fileID: 2100000, guid: f85f731d9c15e9c45a395bae5bec465c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_teeth marble
+    second: {fileID: 2100000, guid: 468bb41dc28c7d549b0c0b6674b0fcd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cok_yessa_tongue marble
+    second: {fileID: 2100000, guid: c18ca3369739a2148a558719eca6e093, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

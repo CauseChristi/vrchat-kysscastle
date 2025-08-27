@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: StartbuttonScript
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: e381010a117c1594488c368e9385bdde,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 6dd4f2955f7a06e448941d85e253069f,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export Animator\r\n    .export TriggerName\r\n   
     .export AudioSource\r\n    .export AudioAnimator\r\n    \r\n    __Boolean_0:
@@ -156,14 +156,11 @@ MonoBehaviour:
       position: {x: -47, y: 136}
       nodeUIDs:
       - 
-      - 
       flowUIDs:
       - 8b4147dd-02bc-4dca-836f-048b60e5241b
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|RunAnimation
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid
       uid: 860d234a-3da9-4949-8a68-80abec079fd8
       position: {x: 313.0001, y: -141.91304}
@@ -249,14 +246,11 @@ MonoBehaviour:
       position: {x: 442, y: 358.00003}
       nodeUIDs:
       - 
-      - 
       flowUIDs:
       - 0c04126e-3921-47ae-859e-1ae38bc698ed
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|StartAudio
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Variable_SystemBoolean
       uid: 2ca284a9-27f4-4412-a686-e67811987dd3
       position: {x: 0, y: 0}
@@ -378,14 +372,11 @@ MonoBehaviour:
       position: {x: 753.00006, y: -142}
       nodeUIDs:
       - 
-      - 
       flowUIDs:
       - 3ce8cd8f-06bf-4fa9-936f-588cc4f60cb4
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ReactivateButton
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Const_SystemBoolean
       uid: eed4ffbf-6657-4ee9-aa01-026d7dbc2794
       position: {x: 838.00006, y: -34.999996}
