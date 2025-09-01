@@ -100,7 +100,7 @@ Material:
     - _DstBlend: 0
     - _ExposureOcclusion: 0.2
     - _GlossMapScale: 1
-    - _Glossiness: 0.638
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _LTCGI: 0
     - _LightmapSpecular: 1
@@ -119,5 +119,5 @@ Material:
     - _specularAntiAliasingVariance: 0.15
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
   m_BuildTextureStacks: []

@@ -8,7 +8,7 @@ using TMPro;
 public class BeerPongGameManager : UdonSharpBehaviour
 {
     [Header("Rules")]
-    public bool allowSoloPractice = true;
+    public bool allowSoloPractice = true; // (kept for convenience; now we auto-enable whichever side has a player)
 
     [Header("Zones")]
     public PlayerZone redZone;
@@ -22,8 +22,8 @@ public class BeerPongGameManager : UdonSharpBehaviour
     public CenterGate centerGate;
 
     [Header("Cups (Defended by Team)")]
-    // Red cups are scored by Blue; Blue cups are scored by Red
-    public CupTopTrigger[] redCupsTop;     // length 6 (these are Red’s cups → Blue scores here)
+    // Red cups are *defended by Red* (Blue scores on them)
+    public CupTopTrigger[] redCupsTop;     // length 6
     public Renderer[]      redCupsRender;  // visuals, length 6
     public CupTopTrigger[] blueCupsTop;    // length 6
     public Renderer[]      blueCupsRender; // visuals, length 6
@@ -42,10 +42,10 @@ public class BeerPongGameManager : UdonSharpBehaviour
     public AudioClip sfxHitCupSide;
     public AudioClip sfxHitCupTop;
     public AudioClip sfxCenterSuccess;
-    public AudioClip sfxRoundWin;
+    public AudioClip sfxRoundWin; // use for point-award celebration now
 
     [Header("Confetti")]
-    public ParticleSystem[] confettiPool; // simple pool; will be moved over winner
+    public ParticleSystem[] confettiPool;
 
     [Header("UI")]
     public TextMeshProUGUI redNameText;
@@ -56,34 +56,30 @@ public class BeerPongGameManager : UdonSharpBehaviour
     [UdonSynced] private int _redScore;
     [UdonSynced] private int _blueScore;
 
-    [UdonSynced] private int _redCupMask;  // bitmask of lit cups (0..5)
-    [UdonSynced] private int _blueCupMask;
-
-    [UdonSynced] private int _turnTeam = (int)Team.None; // None until both players ready
+    [UdonSynced] private int _redCupMask;  // which of Red's cups are lit (Blue attacks these)
+    [UdonSynced] private int _blueCupMask; // which of Blue's cups are lit (Red attacks these)
 
     private VRCPlayerApi _redPlayer;
     private VRCPlayerApi _bluePlayer;
+    private bool _started; // simple guard so we only "start" (reset) once until both seats empty
 
     // --- Init ---
     private void Start()
     {
         ResetAllVisuals();
         UpdateUI();
-        SetTurn(Team.None);
-        SafeDisableBall(Team.Red);
-        SafeDisableBall(Team.Blue);
+        UpdateBallEnables(); // nothing active until a player joins
     }
 
     // --- Zone hooks ---
     public void OnPlayerZoneJoined(Team team, VRCPlayerApi player)
     {
-        if (team == Team.Red) _redPlayer = player;
-        else if (team == Team.Blue) _bluePlayer = player;
-
+        if (team == Team.Red) _redPlayer = player; else _bluePlayer = player;
         audioPool.PlayAt(sfxPlayerActivate, transform.position, 1f);
-
         UpdateUINames();
-        MaybeStartGame();
+
+        MaybeStartOrResume();
+        UpdateBallEnables();
     }
 
     public void OnPlayerZoneLeft(Team team, VRCPlayerApi player)
@@ -93,172 +89,126 @@ public class BeerPongGameManager : UdonSharpBehaviour
         if (team == Team.Red && _redPlayer != null && player.playerId == _redPlayer.playerId) _redPlayer = null;
         if (team == Team.Blue && _bluePlayer != null && player.playerId == _bluePlayer.playerId) _bluePlayer = null;
 
-        // If current shooter left, pause turns (disable balls)
-        if ((int)team == _turnTeam)
-        {
-            SetTurn(Team.None);
-            SafeDisableBall(Team.Red);
-            SafeDisableBall(Team.Blue);
-        }
         UpdateUINames();
+        UpdateBallEnables();
+
+        // If both gone, consider the session ended so the next join can reset everything
+        if (_redPlayer == null && _bluePlayer == null) _started = false;
     }
 
-    private void MaybeStartGame()
+    private void MaybeStartOrResume()
     {
-        if (_turnTeam != (int)Team.None) return; // already running
+        if (_started) return;
+        if (!allowSoloPractice && (_redPlayer == null || _bluePlayer == null)) return;
 
-        bool hasRed = _redPlayer != null;
-        bool hasBlue = _bluePlayer != null;
-
-        if (hasRed && hasBlue)
-        {
-            // Normal 2P start
-            _redScore = 0; _blueScore = 0;
-            _redCupMask = 0; _blueCupMask = 0;
-            ResetAllVisuals();
-            UpdateUI();
-            SetTurn(Team.Red);
-            audioPool.PlayAt(sfxGameStart, transform.position, 1f);
-            return;
-        }
-
-        if (allowSoloPractice && (hasRed || hasBlue))
-        {
-            // Solo start: whoever is seated gets the first (and only) turn
-            _redScore = 0; _blueScore = 0;
-            _redCupMask = 0; _blueCupMask = 0;
-            ResetAllVisuals();
-            UpdateUI();
-
-            Team soloTeam = hasRed ? Team.Red : Team.Blue;
-            SetTurn(soloTeam);
-            audioPool.PlayAt(sfxGameStart, transform.position, 1f);
-        }
-    }
-
-
-    // --- Turn control ---
-    private void SetTurn(Team team)
-    {
-        _turnTeam = (int)team;
+        // Reset scores and cups whenever a new session begins
+        _redScore = 0; _blueScore = 0;
+        _redCupMask = 0; _blueCupMask = 0;
+        ResetAllVisuals();
+        UpdateUI();
         RequestSerialization();
 
-        // Enable only the active team's ball
-        SafeDisableBall(Team.Red);
-        SafeDisableBall(Team.Blue);
-        if (team == Team.Red) SafeEnableBall(Team.Red);
-        if (team == Team.Blue) SafeEnableBall(Team.Blue);
-
-        // Center must be reset at the start of a new possession
-        if (centerGate != null) centerGate.ResetGate();
+        _started = true;
+        audioPool.PlayAt(sfxGameStart, transform.position, 1f);
     }
 
-    public bool IsPlayersTurn(VRCPlayerApi player, Team team)
+    private void UpdateBallEnables()
     {
-        if ((int)team != _turnTeam) return false;
-        if (team == Team.Red) return _redPlayer != null && player.playerId == _redPlayer.playerId;
-        if (team == Team.Blue) return _bluePlayer != null && player.playerId == _bluePlayer.playerId;
-        return false;
+        if (redBall)  redBall.SetBallEnabled(_redPlayer != null);
+        if (blueBall) blueBall.SetBallEnabled(_bluePlayer != null);
     }
-
-    private bool HasPlayer(Team t) => (t == Team.Red) ? (_redPlayer != null) : (_bluePlayer != null);
-
-    public void NextTurn()
-    {
-        Team current = (Team)_turnTeam;
-        if (current == Team.None) return;
-
-        Team next = current == Team.Red ? Team.Blue : Team.Red;
-
-        if (allowSoloPractice && !HasPlayer(next))
-        {
-            // Stay on the same team in solo mode; re-arm center gate and keep ball up
-            if (centerGate != null) centerGate.ResetGate();
-            SetTurn(current); // re-enables the same ball & re-arms gate
-            return;
-        }
-
-        SetTurn(next);
-    }
-
 
     // --- Ball event passthroughs (for SFX convenience) ---
-    public void OnBallPickup(Team team, Vector3 pos)
-    {
-        audioPool.PlayAt(sfxBallPickup, pos, 1f);
-    }
-    public void OnBallBounce(Vector3 pos)
-    {
-        audioPool.PlayAt(sfxBallBounce, pos, 1f);
-    }
-    public void OnCenterSuccess(Vector3 pos)
-    {
-        audioPool.PlayAt(sfxCenterSuccess, pos, 1f);
-    }
-    public void OnCupSideHit(Vector3 pos)
-    {
-        audioPool.PlayAt(sfxHitCupSide, pos, 1f);
-    }
-    public void OnCupTopHit(Vector3 pos)
-    {
-        audioPool.PlayAt(sfxHitCupTop, pos, 1f);
-    }
+    public void OnBallPickup(Team team, Vector3 pos)   { audioPool.PlayAt(sfxBallPickup, pos, 1f); }
+    public void OnBallBounce(Vector3 pos)               { audioPool.PlayAt(sfxBallBounce, pos, 1f); }
+    public void OnCenterSuccess(Vector3 pos)            { audioPool.PlayAt(sfxCenterSuccess, pos, 1f); }
+    public void OnCupSideHit(Vector3 pos)               { audioPool.PlayAt(sfxHitCupSide, pos, 1f); }
+    public void OnCupTopHit(Vector3 pos)                { audioPool.PlayAt(sfxHitCupTop, pos, 1f); }
 
-    // --- Scoring ---
-    // Attacker is the opposite of the defendedTeam (the cups belong to defendedTeam)
+    // --- Scoring (no turns) ---
+    // A cup top lit = mark the defended team's mask. When *all 6* of a defended team are lit, the attacker earns +1 point.
     public void RegisterCupScored(Team defendedTeam, int cupIndex, Vector3 hitPos)
     {
+        bool changed = false;
+
         if (defendedTeam == Team.Red)
         {
-            // Blue scored on Red’s cup
-            if (((_redCupMask >> cupIndex) & 1) == 1) return; // already lit
-            _redCupMask |= (1 << cupIndex);
-            _blueScore++;
-            LightCup(defendedTeam, cupIndex, true);
+            // Blue attacked Red's cups
+            if (((_redCupMask >> cupIndex) & 1) == 0)
+            {
+                _redCupMask |= (1 << cupIndex);
+                changed = true;
+                LightCup(Team.Red, cupIndex, true);
+            }
         }
         else if (defendedTeam == Team.Blue)
         {
-            // Red scored on Blue’s cup
-            if (((_blueCupMask >> cupIndex) & 1) == 1) return;
-            _blueCupMask |= (1 << cupIndex);
-            _redScore++;
-            LightCup(defendedTeam, cupIndex, true);
+            // Red attacked Blue's cups
+            if (((_blueCupMask >> cupIndex) & 1) == 0)
+            {
+                _blueCupMask |= (1 << cupIndex);
+                changed = true;
+                LightCup(Team.Blue, cupIndex, true);
+            }
         }
+
+        if (!changed) return;
 
         RequestSerialization();
         UpdateUI();
         audioPool.PlayAt(sfxHitCupTop, hitPos, 1f);
 
-        // Check win
-        if (_redScore >= 6)
+        // After any cup lights, check if *all* of that set is now lit
+        if (defendedTeam == Team.Red)
         {
-            // Red lit all Blue cups → Red wins
-            SpawnConfettiOver(_redPlayer);
-            audioPool.PlayAt(sfxRoundWin, hitPos, 1f);
-            EndRound();
-            return;
-        }
-        if (_blueScore >= 6)
-        {
-            SpawnConfettiOver(_bluePlayer);
-            audioPool.PlayAt(sfxRoundWin, hitPos, 1f);
-            EndRound();
-            return;
-        }
+            int fullMask = (1 << redCupsTop.Length) - 1; // expects 6 cups
+            if (_redCupMask == fullMask)
+            {
+                // Blue completed all Red cups → Blue scores +1
+                _blueScore++;
+                RequestSerialization();
+                UpdateUI();
 
-        // Scored → possession switches
-        NextTurn();
+                // Celebrate near Blue player
+                SpawnConfettiOver(_bluePlayer);
+                audioPool.PlayAt(sfxRoundWin, hitPos, 1f);
+
+                // Reset Red's cups for the next point
+                ResetCups(Team.Red);
+            }
+        }
+        else // defendedTeam == Team.Blue
+        {
+            int fullMask = (1 << blueCupsTop.Length) - 1;
+            if (_blueCupMask == fullMask)
+            {
+                // Red completed all Blue cups → Red scores +1
+                _redScore++;
+                RequestSerialization();
+                UpdateUI();
+
+                SpawnConfettiOver(_redPlayer);
+                audioPool.PlayAt(sfxRoundWin, hitPos, 1f);
+
+                ResetCups(Team.Blue);
+            }
+        }
     }
 
-    private void EndRound()
+    private void ResetCups(Team defendedTeam)
     {
-        // Freeze turns & balls
-        SetTurn(Team.None);
-        SafeDisableBall(Team.Red);
-        SafeDisableBall(Team.Blue);
-
-        // Let people stay in zones; a new round starts when both present and you call MaybeStartGame() again
-        // (Or auto-start after a delay if you like.)
+        if (defendedTeam == Team.Red)
+        {
+            _redCupMask = 0;
+            for (int i = 0; i < redCupsRender.Length; i++) LightCup(Team.Red, i, false);
+        }
+        else
+        {
+            _blueCupMask = 0;
+            for (int i = 0; i < blueCupsRender.Length; i++) LightCup(Team.Blue, i, false);
+        }
+        RequestSerialization();
+        UpdateUI();
     }
 
     // --- Visual helpers ---
@@ -280,13 +230,11 @@ public class BeerPongGameManager : UdonSharpBehaviour
     private void LightCup(Team defendedTeam, int index, bool lit, bool applyNow = true)
     {
         Renderer r = defendedTeam == Team.Red ? redCupsRender[index] : blueCupsRender[index];
-        if (r != null)
-        {
-            r.sharedMaterial = lit ? cupMatLit : cupMatNormal;
-        }
+        if (r != null) r.sharedMaterial = lit ? cupMatLit : cupMatNormal;
+
         if (applyNow)
         {
-            // disable the top trigger after lighting (so it can’t be scored twice)
+            // disable/enable the scoring top trigger accordingly
             CupTopTrigger top = defendedTeam == Team.Red ? redCupsTop[index] : blueCupsTop[index];
             if (top != null) top.SetScored(lit);
         }
@@ -294,13 +242,13 @@ public class BeerPongGameManager : UdonSharpBehaviour
 
     private void UpdateUI()
     {
-        if (redScoreText) redScoreText.text = _redScore.ToString();
+        if (redScoreText)  redScoreText.text  = _redScore.ToString();
         if (blueScoreText) blueScoreText.text = _blueScore.ToString();
     }
 
     private void UpdateUINames()
     {
-        if (redNameText) redNameText.text = _redPlayer != null ? _redPlayer.displayName : "-";
+        if (redNameText)  redNameText.text  = _redPlayer  != null ? _redPlayer.displayName  : "-";
         if (blueNameText) blueNameText.text = _bluePlayer != null ? _bluePlayer.displayName : "-";
     }
 
@@ -309,6 +257,7 @@ public class BeerPongGameManager : UdonSharpBehaviour
         if (p == null) return;
         ParticleSystem ps = GetFreeConfetti();
         if (ps == null) return;
+
         Vector3 pos = p.GetPosition();
         pos.y += 2.0f;
         ps.transform.position = pos;
@@ -321,23 +270,9 @@ public class BeerPongGameManager : UdonSharpBehaviour
         for (int i = 0; i < confettiPool.Length; i++)
         {
             var ps = confettiPool[i];
-            if (ps != null && !ps.isPlaying)
-            {
-                return ps;
-            }
+            if (ps != null && !ps.isPlaying) return ps;
         }
         return null;
-    }
-
-    private void SafeEnableBall(Team team)
-    {
-        TeamBall b = (team == Team.Red) ? redBall : blueBall;
-        if (b != null) b.SetBallEnabled(true);
-    }
-    private void SafeDisableBall(Team team)
-    {
-        TeamBall b = (team == Team.Red) ? redBall : blueBall;
-        if (b != null) b.SetBallEnabled(false);
     }
 
     // --- Serialization apply (late joiners) ---
@@ -347,19 +282,14 @@ public class BeerPongGameManager : UdonSharpBehaviour
         UpdateUI();
     }
 
-    // --- Exposed utility for other scripts ---
+    // --- Pickup permission: ball tied to the player seated in that team's zone ---
     public bool CanPickupBall(VRCPlayerApi p, Team team)
     {
-        return IsPlayersTurn(p, team);
+        if (p == null) return false;
+        if (team == Team.Red)  return _redPlayer  != null && p.playerId == _redPlayer.playerId;
+        if (team == Team.Blue) return _bluePlayer != null && p.playerId == _bluePlayer.playerId;
+        return false;
     }
 
-    public VRCPlayerApi GetTeamPlayer(Team team)
-    {
-        return team == Team.Red ? _redPlayer : _bluePlayer;
-    }
-
-    public Team CurrentTurnTeam()
-    {
-        return (Team)_turnTeam;
-    }
+    public VRCPlayerApi GetTeamPlayer(Team team) => (team == Team.Red) ? _redPlayer : _bluePlayer;
 }

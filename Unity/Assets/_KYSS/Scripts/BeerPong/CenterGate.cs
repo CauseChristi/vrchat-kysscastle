@@ -1,35 +1,28 @@
-﻿using UdonSharp;
+﻿// CenterGate.cs
+using UdonSharp;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 public class CenterGate : UdonSharpBehaviour
 {
     public BeerPongGameManager game;
-
-    private bool _armed = true;
+    public bool debug;
 
     private void Start()
     {
-        var col = (Collider)GetComponent(typeof(Collider));
-        col.isTrigger = true;
+        ((Collider)GetComponent(typeof(Collider))).isTrigger = true;
     }
 
-    public void ResetGate()
-    {
-        _armed = true;
-    }
+    public void ResetGate() { } // no-op by design
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!_armed) return;
-
-        // ❌ old: var ball = (TeamBall)other.GetComponent(typeof(TeamBall));
-        TeamBall ball = other.GetComponent<TeamBall>();   // ✅
-        if (ball == null) return;
+        TeamBall ball = other.GetComponent<TeamBall>();
+        if (ball == null) ball = other.GetComponentInParent<TeamBall>();   // << key line
+        if (ball == null) { if (debug) Debug.Log("[CenterGate] No TeamBall on " + other.name); return; }
 
         ball.hasTouchedCenter = true;
-        _armed = false;
+        if (debug) Debug.Log("[CenterGate] Center success for " + ball.team + " ball.");
         if (game) game.OnCenterSuccess(other.transform.position);
     }
-
 }

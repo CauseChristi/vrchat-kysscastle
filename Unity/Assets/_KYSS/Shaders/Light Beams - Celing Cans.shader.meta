@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8c792a322232eba4c92d462522e71e84
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ColorsBars: {fileID: 2800000, guid: 1019cf5b255bb6a43aaf3dede550ed07, type: 3}
+  - _AlphaGradientBlackontop: {fileID: 2800000, guid: 7fa174d06d02a8e4d8636f1becb91841,
+      type: 3}
+  - _AtmosphereTexture: {fileID: 2800000, guid: d30ab184761bb9e4391b1cea96642d02,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

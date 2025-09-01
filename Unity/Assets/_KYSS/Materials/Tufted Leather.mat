@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _LIGHTMAPSPECULAR
+  - _NORMALMAP
   m_InvalidKeywords:
   - BAKERY_LMSPEC
   - BAKERY_SH
@@ -31,7 +32,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 71df313bf94a79746a4688af6ae80017, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8a738715e41b62240b130ecb1e995a8b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DFG:
@@ -55,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6f2555b25fa89524f9431086d0e2e8c7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 914bd8250d309f240ab75a0978cb4637, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -96,12 +97,12 @@ Material:
     - _DstBlend: 0
     - _ExposureOcclusion: 0.2
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.666
     - _GlossyReflections: 1
     - _LTCGI: 0
     - _LightmapSpecular: 1
     - _LightmapSpecularMaxSmoothness: 1
-    - _Metallic: 0
+    - _Metallic: 0.583
     - _Mode: 0
     - _NormalMapShadows: 0
     - _OcclusionStrength: 1

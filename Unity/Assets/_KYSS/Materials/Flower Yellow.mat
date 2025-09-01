@@ -8,19 +8,19 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Flower Yellow
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 9829e18681954944a8b25de9b080a0b6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHATEST_ON
   - _EMISSION
+  - _LIGHTMAPSPECULAR
   - _NORMALMAP
   m_InvalidKeywords:
   - BAKERY_LMSPEC
   - BAKERY_SH
   - BAKERY_SHNONLINEAR
   - _BAKERY_NONE
-  - _LIGHTMAPSPECULAR
   - _SPECGLOSSMAP
   - _USE_EMISSIVE
   m_LightmapFlags: 2
@@ -63,11 +63,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 0329f88e1a406644c97d0ec094ab70e2, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: c3b93488fd8a11847ad12e8710e6866a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -100,12 +100,12 @@ Material:
     - _DstBlend: 0
     - _ExposureOcclusion: 0.2
     - _GlossMapScale: 1
-    - _Glossiness: 0.42
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _LTCGI: 0
     - _LightmapSpecular: 1
     - _LightmapSpecularMaxSmoothness: 1
-    - _Metallic: 0.49
+    - _Metallic: 0
     - _Mode: 1
     - _NormalMapShadows: 0
     - _OcclusionStrength: 1
@@ -119,5 +119,5 @@ Material:
     - _specularAntiAliasingVariance: 0.15
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
   m_BuildTextureStacks: []

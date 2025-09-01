@@ -162,7 +162,9 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.DefaultCompany.vrchatkysscastleunity
+    Standalone: com.DefaultCompany.vrchat-kysscastle-unity
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -564,7 +566,9 @@ PlayerSettings:
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
   m_BuildTargetNormalMapEncoding: []
-  m_BuildTargetDefaultTextureCompressionFormat: []
+  m_BuildTargetDefaultTextureCompressionFormat:
+  - m_BuildTarget: Android
+    m_Format: 3
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -823,7 +827,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: UNITY_POST_PROCESSING_STACK_V2;AUDIOLINK;AUDIOLINK_V1;UDON;VRC_SDK_VRCSDK3;VRC_ENABLE_PLAYER_PERSISTENCE;UDONSHARP;BAKERY_INCLUDED;BAKERY_NOREIMPORT
+    Android: UNITY_POST_PROCESSING_STACK_V2;AUDIOLINK;AUDIOLINK_V1;UDON;VRC_SDK_VRCSDK3;VRC_ENABLE_PLAYER_PERSISTENCE;UDONSHARP;BAKERY_INCLUDED;BAKERY_NOREIMPORT;MMM_SMARTOBJECTSYNC;MMM_SMARTOBJECTSYNC_V3
     EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2
     GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2
     Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2
@@ -831,7 +835,7 @@ PlayerSettings:
     PS5: UNITY_POST_PROCESSING_STACK_V2
     QNX: UNITY_POST_PROCESSING_STACK_V2
     Stadia: UNITY_POST_PROCESSING_STACK_V2
-    Standalone: UNITY_POST_PROCESSING_STACK_V2;UDONSHARP;UDON;VRC_SDK_VRCSDK3;VRC_ENABLE_PLAYER_PERSISTENCE;AUDIOLINK;AUDIOLINK_V1;BAKERY_INCLUDED;BAKERY_NOREIMPORT
+    Standalone: UNITY_POST_PROCESSING_STACK_V2;UDONSHARP;UDON;VRC_SDK_VRCSDK3;VRC_ENABLE_PLAYER_PERSISTENCE;AUDIOLINK;AUDIOLINK_V1;BAKERY_INCLUDED;BAKERY_NOREIMPORT;MMM_SMARTOBJECTSYNC;MMM_SMARTOBJECTSYNC_V3
     VisionOS: UNITY_POST_PROCESSING_STACK_V2
     WebGL: UNITY_POST_PROCESSING_STACK_V2
     XboxOne: UNITY_POST_PROCESSING_STACK_V2

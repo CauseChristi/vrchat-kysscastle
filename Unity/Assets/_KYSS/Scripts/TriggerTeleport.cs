@@ -15,6 +15,9 @@ public class TriggerTeleport : UdonSharpBehaviour
     [Tooltip("Optional extra local-space offset applied from the target.")]
     public Vector3 localOffset = Vector3.zero;
 
+    [Header("SFX")]
+    public GameObject sfxObject;
+
     [Header("Activation")]
     public bool useOnTriggerEnter = true;
 
@@ -51,6 +54,9 @@ public class TriggerTeleport : UdonSharpBehaviour
             if (debugLogs) Debug.Log("[TriggerTeleport] No target assigned.");
             return;
         }
+
+        // Play SFX
+        if (sfxObject != null) sfxObject.SetActive(true);
 
         // Compute destination
         _queuedPos = target.TransformPoint(localOffset);

@@ -978,7 +978,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: White Wood
-    second: {fileID: 2100000, guid: b5ab7272d9641264ba77710745750349, type: 2}
+    second: {fileID: 2100000, guid: f4e2035a40bbe124cad7733e7903fb01, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1028,12 +1028,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: sacura_branch_2
-    second: {fileID: 2100000, guid: ce35033fef9da2442a14ee29edecbe20, type: 2}
+    second: {fileID: 2100000, guid: ca0c3a60c22f3b04e9ac33b38a8e832c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: sacura_branch_3
-    second: {fileID: 2100000, guid: 3884a7aff6460bc4db35622af2fd3ffe, type: 2}
+    second: {fileID: 2100000, guid: ca0c3a60c22f3b04e9ac33b38a8e832c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
