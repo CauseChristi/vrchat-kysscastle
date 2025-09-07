@@ -48,8 +48,8 @@ Material:
     - _Alpha1: 1
     - _Alpha2: 1
     - _Alpha3: 1
-    - _Bri: 0.28
-    - _Con: 2
+    - _Bri: 0
+    - _Con: 1.673
     - _DstBlend: 10
     - _InvFade: 0.01
     - _Mode: 7
@@ -70,16 +70,16 @@ Material:
     - _rgbc: 1
     - _sT: 1
     - _sTA: 1
-    - _sTAE: 0
+    - _sTAE: 1
     - _tT: 1
     - _tTA: 0
     - _tTAE: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor: {r: 0, g: 0.5312372, b: 0.7941176, a: 0.24705882}
-    - _Pan1: {r: -0.01, g: 0, b: 0, a: 0}
-    - _Pan2: {r: 0, g: 0, b: 0, a: 0}
-    - _Pan3: {r: 0.01, g: 0, b: 0, a: 0}
+    - _Pan1: {r: -0.005, g: 0, b: 0, a: 0}
+    - _Pan2: {r: 0.00025, g: 0, b: 0, a: 0}
+    - _Pan3: {r: 0.005, g: 0, b: 0, a: 0}
     - _Rot1: {r: 0, g: 0, b: 0, a: 0}
     - _Rot2: {r: 0, g: 0, b: 0, a: 0}
     - _Rot3: {r: 0, g: 0, b: 0, a: 0}

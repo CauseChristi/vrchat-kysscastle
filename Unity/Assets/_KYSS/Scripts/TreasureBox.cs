@@ -187,6 +187,10 @@ public class TreasureBox : UdonSharpBehaviour
         // Interaction prompt state
         SetPromptLocked(!isOpen);
 
+        // --- NEW: force local drop so the avatar isn't "holding nothing"
+        if (isOpen)
+            ForceLocalDropIfHolding();
+
         // Disable key object (all clients will do this when they see open=true)
         if (isOpen) DisableKeyObject();
 
@@ -247,7 +251,7 @@ public class TreasureBox : UdonSharpBehaviour
         if (toDisable != null && toDisable.activeSelf)
             toDisable.SetActive(false);
 
-        gameObject.SetActive(false);
+        gameObject.GetComponent<Collider>().enabled = false;
     }
 
     // Local-only reset for testing (NOT networked)
@@ -264,5 +268,28 @@ public class TreasureBox : UdonSharpBehaviour
         // Re-enable key if we disabled it (dev convenience)
         GameObject toEnable = keyRootToDisable ?? requiredKeyRoot ?? (requiredKeyPickup != null ? requiredKeyPickup.gameObject : null);
         if (toEnable != null) toEnable.SetActive(true);
+    }
+
+    private void ForceLocalDropIfHolding()
+    {
+        if (!Utilities.IsValid(Networking.LocalPlayer)) return;
+
+        // Prefer the explicitly linked pickup; otherwise search on the key roots.
+        VRC_Pickup p = requiredKeyPickup;
+        if (p == null)
+        {
+            if (keyRootToDisable != null)
+                p = keyRootToDisable.GetComponentInChildren<VRC_Pickup>(true);
+            if (p == null && requiredKeyRoot != null)
+                p = requiredKeyRoot.GetComponentInChildren<VRC_Pickup>(true);
+        }
+
+        if (p != null)
+        {
+            if (p != null && p.IsHeld)
+            {
+                p.Drop();
+            }
+        }
     }
 }
