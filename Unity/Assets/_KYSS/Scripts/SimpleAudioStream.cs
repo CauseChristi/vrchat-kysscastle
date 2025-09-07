@@ -15,8 +15,8 @@ public class SimpleAudioStream : UdonSharpBehaviour
 
     [Header("Options")]
     public bool autoPlay = true;
-    public bool loopTrack = true;      // loop current track
-    public bool loopPlaylist = true;   // when using Next/Prev
+    public bool loopTrack = false;
+    public bool loopPlaylist = false;
     [Range(0f, 1f)] public float volume = 1f;
     [Range(0f, 1f)] public float spatialBlend = 0f;
 
@@ -26,7 +26,6 @@ public class SimpleAudioStream : UdonSharpBehaviour
 
     private void Start()
     {
-        // auto-find AudioSource on same GameObject
         audioSource = GetComponent<AudioSource>();
         if (audioSource != null)
         {
@@ -57,7 +56,6 @@ public class SimpleAudioStream : UdonSharpBehaviour
         player.PlayURL(url);
     }
 
-    // Public controls
     public void Play()  { PlayCurrent(); }
     public void Pause() { if (player != null) { player.Pause(); _isPlaying = false; } }
     public void Stop()  { if (player != null) { player.Stop();  _isPlaying = false; } }

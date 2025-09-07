@@ -80,11 +80,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RotatingTexture:
-        m_Texture: {fileID: 2800000, guid: 70ff1ec16a1943648839e3402384c833, type: 3}
+        m_Texture: {fileID: 2800000, guid: d3d802da62b77487f9af4062873b5fc7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StaticTexture:
-        m_Texture: {fileID: 2800000, guid: 62a7201fdf757b545b0cd095b3234c68, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5c63222f9a185453ca19499b5431082f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
