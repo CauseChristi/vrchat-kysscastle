@@ -5,24 +5,27 @@ Shader "Silent/Filamented Extras/Simple Triplanar Filamented"
 {
     Properties
     {
-        _Color("Color", Color) = (1,1,1,1)
-        [NoScaleOffset]_MainTex("Albedo", 2D) = "white" {}
+        [CheckDFGTexture]
+        [BlendModeSelector(_SrcBlend, _DstBlend, _CustomRenderQueue, _ZWrite, _AtoCmode)] _Mode ("__mode", Float) = 0.0
+        [HeaderEx(Base Material)]
+        [SingleLine(_Color)]_MainTex("Albedo", 2D) = "white" {}
+        [HideInInspector]_Color("Color", Color) = (1,1,1,1)
+        [SingleLine(_BumpScale)][Normal] _BumpMap("Normal", 2D) = "bump" {}
+        [HideInInspector]_BumpScale("Normal Scale", Float) = 1
+        [SingleLine]_MOESMap("MOES Map", 2D) = "white" {}
         [Space]
-        [NoScaleOffset][Normal] _BumpMap("Normal", 2D) = "bump" {}
-        _BumpScale("Normal Scale", Float) = 1
-        [Space]
-        [NoScaleOffset]_MOESMap("MOES Map", 2D) = "white" {}
-        [NoScaleOffset]_MetallicScale("Metallic", Range( 0 , 1)) = 0
+        _MetallicScale("Metallic", Range( 0 , 1)) = 0
         _OcclusionScale("Occlusion", Range( 0 , 1)) = 0
+        _Emission("Emission Power", Float) = 0
         _SmoothnessScale("Smoothness", Range( 0 , 1)) = 0
         [Space]
-        _Emission("Emission Power", Float) = 0
-        _EmissionColor("Emission Color", Color) = (1,1,1,1)
+        _EmissionColor("Emission Tint", Color) = (1,1,1,1)
         [Space]
+        [HeaderEx(Texture Transform)]
         _UVTransform0("UV Transform X", Vector) = (1, 0, 0, 0)
         _UVTransform1("UV Transform Y", Vector) = (0, 1, 0, 0)
         _UVTransform2("UV Transform Z", Vector) = (0, 0, 1, 0)
-        [Space]
+        [HeaderEx(System)]
         [Toggle(_LIGHTMAPSPECULAR)]_LightmapSpecular("Lightmap Specular", Range(0, 1)) = 1
         _LightmapSpecularMaxSmoothness("Lightmap Specular Max Smoothness", Range(0, 1)) = 1
         _ExposureOcclusion("Lightmap Occlusion Sensitivity", Range(0, 1)) = 0.2
@@ -30,13 +33,20 @@ Shader "Silent/Filamented Extras/Simple Triplanar Filamented"
         [HideInInspector]_RNM0("RNM0", 2D) = "black" {}
         [HideInInspector]_RNM1("RNM1", 2D) = "black" {}
         [HideInInspector]_RNM2("RNM2", 2D) = "black" {}
-
         [Toggle(_LTCGI)] _LTCGI ("LTCGI", Int) = 0
         [Space]
         [Enum(UnityEngine.Rendering.CullMode)]_CullMode("Cull Mode", Int) = 2
 
         [NonModifiableTextureData][HideInInspector] _DFG("DFG", 2D) = "white" {}
+        // Blending state
+        [HideInInspector] _SrcBlend ("__src", Float) = 1.0
+        [HideInInspector] _DstBlend ("__dst", Float) = 0.0
+        [HideInInspector] _CustomRenderQueue ("__rq", Float) = 1.0
+        [HideInInspector] _ZWrite ("__zw", Float) = 1.0
+        [HideInInspector] _AtoCmode("__atoc", Float) = 0
     }
+
+    CustomEditor "Silent.FilamentedExtras.Unity.FilamentedExtrasInspector"
 
     CGINCLUDE
     	// First, setup what Filamented does. 
@@ -275,6 +285,9 @@ half4 fragAdd (VertexOutputForwardAdd i) : SV_Target { return fragForwardAddTemp
             Tags { "LightMode" = "ForwardBase" }
 
             Cull [_CullMode]
+            AlphaToMask [_AtoCmode]
+            Blend [_SrcBlend] [_DstBlend]
+            ZWrite [_ZWrite]
 
             CGPROGRAM
             #pragma target 4.0
@@ -311,6 +324,9 @@ half4 fragAdd (VertexOutputForwardAdd i) : SV_Target { return fragForwardAddTemp
             ZWrite Off
             ZTest Equal
             Cull [_CullMode]
+            AlphaToMask [_AtoCmode]
+            Blend One [_DstBlend]
+            ZWrite [_ZWrite]
 
             CGPROGRAM
             #pragma target 3.0
@@ -340,6 +356,7 @@ half4 fragAdd (VertexOutputForwardAdd i) : SV_Target { return fragForwardAddTemp
 
             ZWrite On ZTest LEqual
             Cull [_CullMode]
+            AlphaToMask Off
 
             CGPROGRAM
             #pragma target 3.0
@@ -364,12 +381,51 @@ half4 fragAdd (VertexOutputForwardAdd i) : SV_Target { return fragForwardAddTemp
             ENDCG
         }
         
+        Pass
+        {
+            Name "META"
+            Tags {"LightMode"="Meta"}
+            Cull Off
+            CGPROGRAM
+            
+            #define REQUIRE_META_WORLDPOS
 
-        // Deferred not implemented
-        UsePass "Standard/DEFERRED"
+            #include "Packages/s-ilent.filamented/Filamented/UnityStandardMeta.cginc"
 
-        // Meta not implemented
-        UsePass "Standard/META"
+            #define META_PASS
+
+            float4 frag_meta2 (v2f_meta i): SV_Target
+            {
+                MaterialInputs material = SETUP_BRDF_INPUT (i.uv);
+                float4 dummy[3]; dummy[0] = 1; dummy[1] = 0; dummy[2] = 0;
+                material = MyMaterialSetup (i.uv, 0, 0, dummy, i.worldPos);
+                
+                PixelParams pixel = (PixelParams)0;
+                getCommonPixelParams(material, pixel);
+
+                UnityMetaInput o;
+                UNITY_INITIALIZE_OUTPUT(UnityMetaInput, o);
+
+            #ifdef EDITOR_VISUALIZATION
+                o.Albedo = pixel.diffuseColor;
+                o.VizUV = i.vizUV;
+                o.LightCoord = i.lightCoord;
+            #else
+                o.Albedo = UnityLightmappingAlbedo (pixel.diffuseColor, pixel.f0, 1-pixel.perceptualRoughness);
+            #endif
+                o.SpecularColor = pixel.f0;
+                o.Emission = material.emissive;
+
+                return UnityMetaFragment(o);
+            }
+
+            #pragma vertex vert_meta
+            #pragma fragment frag_meta2
+            #pragma shader_feature _EMISSION
+            #pragma shader_feature _METALLICGLOSSMAP
+            #pragma shader_feature ___ _DETAIL_MULX2
+            ENDCG
+        }
 
     }
 

@@ -1,6 +1,6 @@
 // A shader for displaying artwork in high quality, as though it
 // were printed or painted onto a canvas. 
-Shader "Silent/Filamented Painting Canvas"
+Shader "Silent/Filamented Extras/Painting Canvas"
 {
     Properties
     {
@@ -383,14 +383,6 @@ half4 fragAdd (VertexOutputForwardAdd i) : SV_Target { return fragForwardAddTemp
 
             ENDCG
         }
-        
-
-        // Deferred not implemented
-        UsePass "Standard/DEFERRED"
-
-        // Meta not implemented
-        UsePass "Standard/META"
-
     }
 
     FallBack "VertexLit"

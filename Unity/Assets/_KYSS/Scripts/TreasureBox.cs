@@ -284,12 +284,10 @@ public class TreasureBox : UdonSharpBehaviour
                 p = requiredKeyRoot.GetComponentInChildren<VRC_Pickup>(true);
         }
 
-        if (p != null)
+        // If we found it and it’s currently held, force a drop
+        if (p != null && p.IsHeld)
         {
-            if (p != null && p.IsHeld)
-            {
-                p.Drop();
-            }
+            p.Drop();
         }
     }
 }

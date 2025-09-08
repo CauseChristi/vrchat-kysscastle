@@ -3,53 +3,63 @@ Filamented texture blending sample.
 This is designed to be used as-is in existing projects, but
 experienced users may wish to modify how the shader functions.
 */ 
-Shader "Silent/Filamented Extras/Filamented Texture Blending"
+Shader "Silent/Filamented Extras/Texture Blending Filamented"
 {
     Properties
     {
-        [Header(Base Color)]
-        _MainTexA ("Albedo (RGB)", 2D) = "white" {}
-        [NoScaleOffset][Normal]_BumpMapA ("Normal Map (XYZ)", 2D) = "bump" {}
-        [NoScaleOffset]_MaskMapA ("Mask (MOES)", 2D) = "green" {}
-        _PropertiesA("MOES Scale", Vector) = (0.0, 0.0, 0.0, 1.0)
+        [CheckDFGTexture]
+        [BlendModeSelector(_SrcBlend, _DstBlend, _CustomRenderQueue, _ZWrite, _AtoCmode)] _Mode ("__mode", Float) = 0.0
 
-        [Header(Vertex Color R)]
-        _MainTexR ("Albedo (RGB)", 2D) = "white" {}
-        [NoScaleOffset][Normal]_BumpMapR ("Normal Map (XYZ)", 2D) = "bump" {}
-        [NoScaleOffset]_MaskMapR ("Mask (MOES)", 2D) = "green" {}
-        _PropertiesR("MOES Scale", Vector) = (0.0, 0.0, 0.0, 1.0)
+        [HeaderEx(Base Settings)]
+        [SetKeyword(_SPLATMAP)]_MainTex("Splat Map (Optional) and Texture Scale", 2D) = "black" {}
 
-        [Header(Vertex Color G)]
-        _MainTexG ("Albedo (RGB)", 2D) = "white" {}
-        [NoScaleOffset][Normal]_BumpMapG ("Normal Map (XYZ)", 2D) = "bump" {}
-        [NoScaleOffset]_MaskMapG ("Mask (MOES)", 2D) = "green" {}
-        _PropertiesG("MOES Scale", Vector) = (0.0, 0.0, 0.0, 1.0)
+        [HeaderEx(Base Color)]
+        [ScaleOffset][SingleLine(_ColorA)]_MainTexA ("Albedo (RGB)", 2D) = "white" {}
+        [HideInInspector]_ColorA("Color", Color) = (1,1,1,1)
+        [SingleLine(_BumpScaleA)][Normal]_BumpMapA ("Normal Map (XYZ)", 2D) = "bump" {}
+        [HideInInspector]_BumpScaleA("Normal Scale", Float) = 1
+        [SingleLine(_PropertiesA)]_MaskMapA ("Mask (MOES)", 2D) = "green" {}
+        [HideInInspector]_PropertiesA("MOES Scale", Vector) = (0.0, 0.0, 0.0, 1.0)
 
-        [Header(Vertex Color B)]
-        _MainTexB ("Albedo (RGB)", 2D) = "white" {}
-        [NoScaleOffset][Normal]_BumpMapB ("Normal Map (XYZ)", 2D) = "bump" {}
-        [NoScaleOffset]_MaskMapB ("Mask (MOES)", 2D) = "green" {}
-        _PropertiesB("MOES Scale", Vector) = (0.0, 0.0, 0.0, 1.0)
+        [HeaderEx(Vertex Color R)]
+        [ScaleOffset][SingleLine(_ColorR)]_MainTexR ("Albedo (RGB)", 2D) = "white" {}
+        [HideInInspector]_ColorR("Color", Color) = (1,1,1,1)
+        [SingleLine(_BumpScaleR)][Normal]_BumpMapR ("Normal Map (XYZ)", 2D) = "bump" {}
+        [HideInInspector]_BumpScaleR("Normal Scale", Float) = 1
+        [SingleLine(_PropertiesR)]_MaskMapR ("Mask (MOES)", 2D) = "green" {}
+        [HideInInspector]_PropertiesR("MOES Scale", Vector) = (0.0, 0.0, 0.0, 1.0)
 
-        [Header(Texture Blending Settings)]
-        _BlendMask ("Texture Blending Offset (R)", 2D) = "grey" {}
+        [HeaderEx(Vertex Color G)]
+        [ScaleOffset][SingleLine(_ColorG)]_MainTexG ("Albedo (RGB)", 2D) = "white" {}
+        [HideInInspector]_ColorG("Color", Color) = (1,1,1,1)
+        [SingleLine(_BumpScaleG)][Normal]_BumpMapG ("Normal Map (XYZ)", 2D) = "bump" {}
+        [HideInInspector]_BumpScaleG("Normal Scale", Float) = 1
+        [SingleLine(_PropertiesG)]_MaskMapG ("Mask (MOES)", 2D) = "green" {}
+        [HideInInspector]_PropertiesG("MOES Scale", Vector) = (0.0, 0.0, 0.0, 1.0)
+
+        [HeaderEx(Vertex Color B)]
+        [ScaleOffset][SingleLine(_ColorB)]_MainTexB ("Albedo (RGB)", 2D) = "white" {}
+        [HideInInspector]_ColorB("Color", Color) = (1,1,1,1)
+        [SingleLine(_BumpScaleB)][Normal]_BumpMapB ("Normal Map (XYZ)", 2D) = "bump" {}
+        [HideInInspector]_BumpScaleB("Normal Scale", Float) = 1
+        [SingleLine(_PropertiesB)]_MaskMapB ("Mask (MOES)", 2D) = "green" {}
+        [HideInInspector]_PropertiesB("MOES Scale", Vector) = (0.0, 0.0, 0.0, 1.0)
+
+        [HeaderEx(Texture Blending Settings)]
+        [ScaleOffset][SingleLine]_BlendMask ("Texture Blending Offset (R)", 2D) = "grey" {}
         _MaskStr("Blending Mask Power (per-channel)", Vector) = (1.0, 1.0, 1.0, 1.0)
         [Toggle(_DEBUG_VIEWWEIGHTS)]_DebugViewBlendingWeights("Debug View for Blend Weights", Float ) = 0.0
 
         [Space]
-        [Toggle(_STOCHASTIC)]_UseStochastic("Use Stochastic Sampling", Float) = 0.0
-
+        [HeaderEx(Sampling Settings)]
+        [Toggle(_STOCHASTIC)]_UseStochastic("Stochastic Sampling", Float) = 0.0
         [Space]
-        [Toggle(_TRIPLANAR)]_UseTriplanar("Use Triplanar Sampling", Float) = 0.0
-        _UVTransform0("Triplanar UV Transform X", Vector) = (1, 0, 0, 0)
-        _UVTransform1("Triplanar UV Transform Y", Vector) = (0, 1, 0, 0)
-        _UVTransform2("Triplanar UV Transform Z", Vector) = (0, 0, 1, 0)
+        [Toggle(_TRIPLANAR)]_UseTriplanar("Triplanar Sampling", Float) = 0.0
+        [IfDef(_TRIPLANAR)]_UVTransform0("Triplanar UV Transform X", Vector) = (1, 0, 0, 0)
+        [IfDef(_TRIPLANAR)]_UVTransform1("Triplanar UV Transform Y", Vector) = (0, 1, 0, 0)
+        [IfDef(_TRIPLANAR)]_UVTransform2("Triplanar UV Transform Z", Vector) = (0, 0, 1, 0)
 
-        [Header(Blend Source Settings)]
-        [Toggle(_SPLATMAP)]_UseSplatMap("Use Splat Map", Float) = 0
-        _MainTex("Splat Map (Optional) and Texture Scale", 2D) = "black" {}
-
-        [Header(Filamented Settings)]
+        [HeaderEx(Filamented Settings)]
         [Toggle(_LIGHTMAPSPECULAR)]_LightmapSpecular("Lightmap Specular", Range(0, 1)) = 1
         _LightmapSpecularMaxSmoothness("Lightmap Specular Max Smoothness", Range(0, 1)) = 1
         _ExposureOcclusion("Lightmap Occlusion Sensitivity", Range(0, 1)) = 0.2
@@ -64,7 +74,15 @@ Shader "Silent/Filamented Extras/Filamented Texture Blending"
         [Enum(UnityEngine.Rendering.CullMode)]_CullMode("Cull Mode", Int) = 2
 
         [NonModifiableTextureData][HideInInspector] _DFG("DFG", 2D) = "white" {}
+        // Blending state
+        [HideInInspector] _SrcBlend ("__src", Float) = 1.0
+        [HideInInspector] _DstBlend ("__dst", Float) = 0.0
+        [HideInInspector] _CustomRenderQueue ("__rq", Float) = 1.0
+        [HideInInspector] _ZWrite ("__zw", Float) = 1.0
+        [HideInInspector] _AtoCmode("__atoc", Float) = 0
     }
+
+    CustomEditor "Silent.FilamentedExtras.Unity.FilamentedExtrasInspector"
 
     CGINCLUDE
     	// First, setup what Filamented does. 
@@ -126,6 +144,9 @@ Shader "Silent/Filamented Extras/Filamented Texture Blending"
     SAMPLER(sampler_MaskMapR);
 
     float4 _MainTexR_ST; float4 _MainTexG_ST; float4 _MainTexB_ST; float4 _MainTexA_ST;
+    
+    float4 _ColorR; float4 _ColorG; float4 _ColorB; float4 _ColorA;
+    float _BumpScaleR; float _BumpScaleG; float _BumpScaleB; float _BumpScaleA;
 
     float4 _PropertiesR; float4 _PropertiesG; float4 _PropertiesB; float4 _PropertiesA;
 
@@ -235,8 +256,8 @@ float3 RNMBlendUnpacked(float3 n1, float3 n2)
 }
 
 void addLayer(float weight, float2 uv, float4 uv_ST,
-    TEXTURE2D_PARAM(tex_A, smp_A), inout float4 albedoAlpha, 
-    TEXTURE2D_PARAM(tex_N, smp_N), inout float3 normal, 
+    TEXTURE2D_PARAM(tex_A, smp_A), inout float4 albedoAlpha, float4 tint, 
+    TEXTURE2D_PARAM(tex_N, smp_N), inout float3 normal, float scale, 
     TEXTURE2D_PARAM(tex_M, smp_M), inout float4 props,
     inout float4 maskProps)
 {
@@ -246,13 +267,15 @@ void addLayer(float weight, float2 uv, float4 uv_ST,
 
         #if defined(_STOCHASTIC)
         float4 thisBasemap = tex2DStochastic(tex_A, smp_A, uv);
-        float3 thisNormal = UnpackScaleNormal(tex2DStochastic(tex_N, smp_N, uv), weight);
+        float3 thisNormal = UnpackScaleNormal(tex2DStochastic(tex_N, smp_N, uv), weight * scale);
         float4 thisProps = tex2DStochastic(tex_M, smp_M, uv);
         #else
         float4 thisBasemap = SAMPLE_TEXTURE2D(tex_A, smp_A, uv);
-        float3 thisNormal = UnpackScaleNormal(SAMPLE_TEXTURE2D(tex_N, smp_N, uv), weight);
+        float3 thisNormal = UnpackScaleNormal(SAMPLE_TEXTURE2D(tex_N, smp_N, uv), weight * scale);
         float4 thisProps = SAMPLE_TEXTURE2D(tex_M, smp_M, uv);
         #endif
+
+        thisBasemap *= tint;
 
         thisProps.rba *= maskProps.rba; // metallic, emission, smoothness
         thisProps.g = lerp(1, thisProps.g, maskProps.g); // occlusion
@@ -270,8 +293,8 @@ void addLayer(float weight, float2 uv, float4 uv_ST,
 }
 
 void addLayerTriplanar(float weight, float3 p, float3 n, float4 uv_ST,
-    TEXTURE2D_PARAM(tex_A, smp_A), inout float4 albedoAlpha, 
-    TEXTURE2D_PARAM(tex_N, smp_N), inout float3 normal, 
+    TEXTURE2D_PARAM(tex_A, smp_A), inout float4 albedoAlpha, float4 tint,
+    TEXTURE2D_PARAM(tex_N, smp_N), inout float3 normal, float scale,
     TEXTURE2D_PARAM(tex_M, smp_M), inout float4 props,
     inout float4 maskProps)
 {
@@ -282,13 +305,15 @@ void addLayerTriplanar(float weight, float3 p, float3 n, float4 uv_ST,
 
         #if defined(_STOCHASTIC)
         float4 thisBasemap = tex2DStochasticBoxmap(TEXTURE2D_ARGS(tex_A, smp_A), p, n, tightness);
-        float3 thisNormal = UnpackScaleNormal(tex2DStochasticBoxmap(TEXTURE2D_ARGS(tex_N, smp_N), p, n, tightness), weight);
+        float3 thisNormal = UnpackScaleNormal(tex2DStochasticBoxmap(TEXTURE2D_ARGS(tex_N, smp_N), p, n, tightness), weight * scale);
         float4 thisProps = tex2DStochasticBoxmap(TEXTURE2D_ARGS(tex_M, smp_M), p, n, tightness);
         #else
         float4 thisBasemap = boxmap(TEXTURE2D_ARGS(tex_A, smp_A), p, n, tightness);
-        float3 thisNormal = UnpackScaleNormal(boxmap(TEXTURE2D_ARGS(tex_N, smp_N), p, n, tightness), weight);
+        float3 thisNormal = UnpackScaleNormal(boxmap(TEXTURE2D_ARGS(tex_N, smp_N), p, n, tightness), weight * scale);
         float4 thisProps = boxmap(TEXTURE2D_ARGS(tex_M, smp_M), p, n, tightness);
         #endif
+
+        thisBasemap *= tint;
 
         thisProps.rba *= maskProps.rba; // metallic, emission, smoothness
         thisProps.g = lerp(1, thisProps.g, maskProps.g); // occlusion
@@ -351,44 +376,44 @@ inline MaterialInputs BlendedMaterialSetup (inout float4 i_tex, float4 tangentTo
 
 #if defined(_TRIPLANAR)
     addLayerTriplanar(baseLayerWeight, worldPosT, worldNormalT, _MainTexA_ST, 
-        TEXTURE2D_ARGS(_MainTexA, sampler_MainTexR), c, 
-        TEXTURE2D_ARGS(_BumpMapA, sampler_BumpMapR), n, 
+        TEXTURE2D_ARGS(_MainTexA, sampler_MainTexR), c, _ColorA,
+        TEXTURE2D_ARGS(_BumpMapA, sampler_BumpMapR), n, _BumpScaleA,
         TEXTURE2D_ARGS(_MaskMapA, sampler_MaskMapR), m, 
         _PropertiesA); 
     addLayerTriplanar(weights.r, worldPosT, worldNormalT, _MainTexR_ST, 
-        TEXTURE2D_ARGS(_MainTexR, sampler_MainTexR), c, 
-        TEXTURE2D_ARGS(_BumpMapR, sampler_BumpMapR), n, 
+        TEXTURE2D_ARGS(_MainTexR, sampler_MainTexR), c, _ColorR,
+        TEXTURE2D_ARGS(_BumpMapR, sampler_BumpMapR), n, _BumpScaleR,
         TEXTURE2D_ARGS(_MaskMapR, sampler_MaskMapR), m, 
         _PropertiesR);
     addLayerTriplanar(weights.g, worldPosT, worldNormalT, _MainTexG_ST, 
-        TEXTURE2D_ARGS(_MainTexG, sampler_MainTexR), c, 
-        TEXTURE2D_ARGS(_BumpMapG, sampler_BumpMapR), n, 
+        TEXTURE2D_ARGS(_MainTexG, sampler_MainTexR), c, _ColorG,
+        TEXTURE2D_ARGS(_BumpMapG, sampler_BumpMapR), n, _BumpScaleG,
         TEXTURE2D_ARGS(_MaskMapG, sampler_MaskMapR), m, 
         _PropertiesG);
     addLayerTriplanar(weights.b, worldPosT, worldNormalT, _MainTexB_ST, 
-        TEXTURE2D_ARGS(_MainTexB, sampler_MainTexR), c, 
-        TEXTURE2D_ARGS(_BumpMapB, sampler_BumpMapR), n, 
+        TEXTURE2D_ARGS(_MainTexB, sampler_MainTexR), c, _ColorB,
+        TEXTURE2D_ARGS(_BumpMapB, sampler_BumpMapR), n, _BumpScaleB,
         TEXTURE2D_ARGS(_MaskMapB, sampler_MaskMapR), m, 
         _PropertiesB);
 #else
     addLayer(baseLayerWeight, i_tex.xy, _MainTexA_ST, 
-        TEXTURE2D_ARGS(_MainTexA, sampler_MainTexR), c, 
-        TEXTURE2D_ARGS(_BumpMapA, sampler_BumpMapR), n, 
+        TEXTURE2D_ARGS(_MainTexA, sampler_MainTexR), c, _ColorA,
+        TEXTURE2D_ARGS(_BumpMapA, sampler_BumpMapR), n, _BumpScaleA,
         TEXTURE2D_ARGS(_MaskMapA, sampler_MaskMapR), m, 
         _PropertiesA);
     addLayer(weights.r, i_tex.xy, _MainTexR_ST, 
-        TEXTURE2D_ARGS(_MainTexR, sampler_MainTexR), c, 
-        TEXTURE2D_ARGS(_BumpMapR, sampler_BumpMapR), n, 
+        TEXTURE2D_ARGS(_MainTexR, sampler_MainTexR), c, _ColorR,
+        TEXTURE2D_ARGS(_BumpMapR, sampler_BumpMapR), n, _BumpScaleR,
         TEXTURE2D_ARGS(_MaskMapR, sampler_MaskMapR), m, 
         _PropertiesR);
     addLayer(weights.g, i_tex.xy, _MainTexG_ST, 
-        TEXTURE2D_ARGS(_MainTexG, sampler_MainTexR), c, 
-        TEXTURE2D_ARGS(_BumpMapG, sampler_BumpMapR), n, 
+        TEXTURE2D_ARGS(_MainTexG, sampler_MainTexR), c, _ColorG,
+        TEXTURE2D_ARGS(_BumpMapG, sampler_BumpMapR), n, _BumpScaleG,
         TEXTURE2D_ARGS(_MaskMapG, sampler_MaskMapR), m, 
         _PropertiesG);
     addLayer(weights.b, i_tex.xy, _MainTexB_ST, 
-        TEXTURE2D_ARGS(_MainTexB, sampler_MainTexR), c, 
-        TEXTURE2D_ARGS(_BumpMapB, sampler_BumpMapR), n, 
+        TEXTURE2D_ARGS(_MainTexB, sampler_MainTexR), c, _ColorB,
+        TEXTURE2D_ARGS(_BumpMapB, sampler_BumpMapR), n, _BumpScaleB,
         TEXTURE2D_ARGS(_MaskMapB, sampler_MaskMapR), m, 
         _PropertiesB);
 #endif
@@ -496,6 +521,9 @@ half4 fragAdd (VertexOutputForwardAdd i) : SV_Target { return fragForwardAddTemp
             Tags { "LightMode" = "ForwardBase" }
 
             Cull [_CullMode]
+            AlphaToMask [_AtoCmode]
+            Blend [_SrcBlend] [_DstBlend]
+            ZWrite [_ZWrite]
 
             CGPROGRAM
             #pragma target 5.0
@@ -536,6 +564,9 @@ half4 fragAdd (VertexOutputForwardAdd i) : SV_Target { return fragForwardAddTemp
             ZWrite Off
             ZTest Equal
             Cull [_CullMode]
+            AlphaToMask [_AtoCmode]
+            Blend One [_DstBlend]
+            ZWrite [_ZWrite]
 
             CGPROGRAM
             #pragma target 5.0
@@ -568,6 +599,7 @@ half4 fragAdd (VertexOutputForwardAdd i) : SV_Target { return fragForwardAddTemp
 
             ZWrite On ZTest LEqual
             Cull [_CullMode]
+            AlphaToMask Off
 
             CGPROGRAM
             #pragma target 5.0

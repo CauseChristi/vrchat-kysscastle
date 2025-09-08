@@ -7,7 +7,7 @@ similar to a Unity surface shader - but with less jank.
 Instead of reading multiple seperate maps, it just asks for
 an albedo map, a normal map, and a MOES map. 
 */ 
-Shader "Silent/Filamented Template"
+Shader "Silent/Filamented Extras/Filamented Template"
 {
     Properties
     {
@@ -308,8 +308,50 @@ half4 fragAdd (VertexOutputForwardAdd i) : SV_Target { return fragForwardAddTemp
         // Deferred not implemented
         UsePass "Standard/DEFERRED"
 
-        // Meta not implemented
-        UsePass "Standard/META"
+        Pass
+        {
+            Name "META"
+            Tags {"LightMode"="Meta"}
+            Cull Off
+            CGPROGRAM
+
+            #include "Packages/s-ilent.filamented/Filamented/UnityStandardMeta.cginc"
+
+            #define META_PASS
+
+            float4 frag_meta2 (v2f_meta i): SV_Target
+            {
+                MaterialInputs material = SETUP_BRDF_INPUT (i.uv);
+                // Note: If your MaterialSetup needs vertex normals, you might want to use a custom vert_meta which passes them through. 
+                float4 dummy[3]; dummy[0] = 1.0; dummy[1] = 0.0; dummy[2] = 0.0;
+                material = MyMaterialSetup(i.uv, 0, 0, dummy, 0);
+
+                PixelParams pixel = (PixelParams)0;
+                getCommonPixelParams(material, pixel);
+
+                UnityMetaInput o;
+                UNITY_INITIALIZE_OUTPUT(UnityMetaInput, o);
+
+            #ifdef EDITOR_VISUALIZATION
+                o.Albedo = pixel.diffuseColor;
+                o.VizUV = i.vizUV;
+                o.LightCoord = i.lightCoord;
+            #else
+                o.Albedo = UnityLightmappingAlbedo (pixel.diffuseColor, pixel.f0, 1-pixel.perceptualRoughness);
+            #endif
+                o.SpecularColor = pixel.f0;
+                o.Emission = material.emissive;
+
+                return UnityMetaFragment(o);
+            }
+
+            #pragma vertex vert_meta
+            #pragma fragment frag_meta2
+            #pragma shader_feature _EMISSION
+            #pragma shader_feature _METALLICGLOSSMAP
+            #pragma shader_feature ___ _DETAIL_MULX2
+            ENDCG
+        }
 
     }
 

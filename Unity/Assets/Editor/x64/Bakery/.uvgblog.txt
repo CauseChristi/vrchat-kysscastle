@@ -7679,3 +7679,1595 @@ Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic C
 Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_dir.tga" 
 Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_final.hdr" 1024
 Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_dir.tga" 
+2025-9-7
+Rendering UV GBuffer for LM - Hallway 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Focus Book 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cinema 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Atrium 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Romantasy 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden Plants 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cozy Romance 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Hidden Room 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Statues 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cozy Fireplace 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden Stage Wall 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Romantic Comedy 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - New Adult 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for KYSS Castle_VLM 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Hallway.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Focus Book.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cinema.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Atrium.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Romantasy.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden Plants.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cozy Romance.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Hidden Room.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Statues.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cozy Fireplace.lz4" 2 0 10 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden Stage Wall.lz4" 2 0 11 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Romantic Comedy.lz4" 2 0 12 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - New Adult.lz4" 2 0 13 0
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema" 4 0 2 comp_2.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium" 4 0 3 comp_3.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy" 4 0 4 comp_4.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden" 4 0 5 comp_5.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_lights_Dir.lz4" 64 0 5 dircomp_5.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants" 4 0 6 comp_6.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_lights_Dir.lz4" 64 0 6 dircomp_6.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance" 4 0 7 comp_7.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_lights_Dir.lz4" 64 0 7 dircomp_7.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room" 4 0 8 comp_8.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_lights_Dir.lz4" 64 0 8 dircomp_8.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues" 4 0 9 comp_9.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_lights_Dir.lz4" 64 0 9 dircomp_9.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace" 4 0 10 comp_10.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_lights_Dir.lz4" 64 0 10 dircomp_10.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall" 4 0 11 comp_11.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_lights_Dir.lz4" 64 0 11 dircomp_11.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy" 4 0 12 comp_12.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_lights_Dir.lz4" 64 0 12 dircomp_12.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult" 4 0 13 comp_13.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_lights_Dir.lz4" 64 0 13 dircomp_13.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "probes" 4 0 14 comp_14.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM" 4 0 15 comp_15.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_lights_Dir.lz4" 64 0 15 dircomp_15.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 0 "gi_LM - Hallway0.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 1 "gi_LM - Focus Book0.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 2 "gi_LM - Cinema0.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 3 "gi_LM - Atrium0.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 4 "gi_LM - Romantasy0.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 5 "gi_LM - Wintergarden0.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 6 "gi_LM - Wintergarden Plants0.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 7 "gi_LM - Cozy Romance0.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 8 "gi_LM - Hidden Room0.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 9 "gi_LM - Statues0.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 10 "gi_LM - Cozy Fireplace0.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 11 "gi_LM - Wintergarden Stage Wall0.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 12 "gi_LM - Romantic Comedy0.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 13 "gi_LM - New Adult0.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM0.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 0 "gi_LM - Hallway1.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 1 "gi_LM - Focus Book1.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 2 "gi_LM - Cinema1.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 3 "gi_LM - Atrium1.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 4 "gi_LM - Romantasy1.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 5 "gi_LM - Wintergarden1.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 6 "gi_LM - Wintergarden Plants1.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 7 "gi_LM - Cozy Romance1.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 8 "gi_LM - Hidden Room1.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 9 "gi_LM - Statues1.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 10 "gi_LM - Cozy Fireplace1.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 11 "gi_LM - Wintergarden Stage Wall1.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 12 "gi_LM - Romantic Comedy1.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 13 "gi_LM - New Adult1.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM1.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 0 "gi_LM - Hallway2.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 1 "gi_LM - Focus Book2.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 2 "gi_LM - Cinema2.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 3 "gi_LM - Atrium2.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 4 "gi_LM - Romantasy2.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 5 "gi_LM - Wintergarden2.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 6 "gi_LM - Wintergarden Plants2.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 7 "gi_LM - Cozy Romance2.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 8 "gi_LM - Hidden Room2.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 9 "gi_LM - Statues2.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 10 "gi_LM - Cozy Fireplace2.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 11 "gi_LM - Wintergarden Stage Wall2.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 12 "gi_LM - Romantic Comedy2.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 13 "gi_LM - New Adult2.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM2.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 0 "gi_LM - Hallway3.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 1 "gi_LM - Focus Book3.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 2 "gi_LM - Cinema3.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 3 "gi_LM - Atrium3.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 4 "gi_LM - Romantasy3.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 5 "gi_LM - Wintergarden3.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 6 "gi_LM - Wintergarden Plants3.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 7 "gi_LM - Cozy Romance3.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 8 "gi_LM - Hidden Room3.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 9 "gi_LM - Statues3.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 10 "gi_LM - Cozy Fireplace3.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 11 "gi_LM - Wintergarden Stage Wall3.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 12 "gi_LM - Romantic Comedy3.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 13 "gi_LM - New Adult3.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM3.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_final" 68 16 0 "gi_LM - Hallway4.bin" "LM - Hallway_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_final" 68 16 1 "gi_LM - Focus Book4.bin" "LM - Focus Book_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_final" 68 16 2 "gi_LM - Cinema4.bin" "LM - Cinema_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_final" 68 16 3 "gi_LM - Atrium4.bin" "LM - Atrium_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_final" 68 16 4 "gi_LM - Romantasy4.bin" "LM - Romantasy_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_final" 68 16 5 "gi_LM - Wintergarden4.bin" "LM - Wintergarden_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_final" 68 16 6 "gi_LM - Wintergarden Plants4.bin" "LM - Wintergarden Plants_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_final" 68 16 7 "gi_LM - Cozy Romance4.bin" "LM - Cozy Romance_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_final" 68 16 8 "gi_LM - Hidden Room4.bin" "LM - Hidden Room_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_final" 68 16 9 "gi_LM - Statues4.bin" "LM - Statues_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_final" 68 16 10 "gi_LM - Cozy Fireplace4.bin" "LM - Cozy Fireplace_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_final" 68 16 11 "gi_LM - Wintergarden Stage Wall4.bin" "LM - Wintergarden Stage Wall_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_final" 68 16 12 "gi_LM - Romantic Comedy4.bin" "LM - Romantic Comedy_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_final" 68 16 13 "gi_LM - New Adult4.bin" "LM - New Adult_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\cause\AppData\Local\Temp\frender" "probes_final" 1924 16 14 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_final" 68 16 15 "gi_KYSS Castle_VLM4.bin" "KYSS Castle_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "0" "LM - Hallway_final_HDR.lz4" "LM - Hallway_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "1" "LM - Focus Book_final_HDR.lz4" "LM - Focus Book_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "2" "LM - Cinema_final_HDR.lz4" "LM - Cinema_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "3" "LM - Atrium_final_HDR.lz4" "LM - Atrium_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "4" "LM - Romantasy_final_HDR.lz4" "LM - Romantasy_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "5" "LM - Wintergarden_final_HDR.lz4" "LM - Wintergarden_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "6" "LM - Wintergarden Plants_final_HDR.lz4" "LM - Wintergarden Plants_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "7" "LM - Cozy Romance_final_HDR.lz4" "LM - Cozy Romance_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "8" "LM - Hidden Room_final_HDR.lz4" "LM - Hidden Room_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "9" "LM - Statues_final_HDR.lz4" "LM - Statues_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "10" "LM - Cozy Fireplace_final_HDR.lz4" "LM - Cozy Fireplace_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "11" "LM - Wintergarden Stage Wall_final_HDR.lz4" "LM - Wintergarden Stage Wall_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "12" "LM - Romantic Comedy_final_HDR.lz4" "LM - Romantic Comedy_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "13" "LM - New Adult_final_HDR.lz4" "LM - New Adult_final_Dir.lz4
+Running ftraceRTX addsh "C:\Users\cause\AppData\Local\Temp\frender" "probes_final_" 4 0 14 shcomp_14.bin
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hallway_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hallway_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Focus Book_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Focus Book_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cinema_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cinema_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Atrium_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Atrium_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantasy_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantasy_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Plants_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Plants_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Romance_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Romance_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hidden Room_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hidden Room_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Statues_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Statues_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Fireplace_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Fireplace_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Stage Wall_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Stage Wall_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_dir.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for LM - Cozy Romance 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - New Adult 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Romantic Comedy 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden Stage Wall 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cozy Fireplace 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Statues 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Hidden Room 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for KYSS Castle_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Romantasy 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Atrium 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cinema 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Focus Book 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Hallway 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden Plants 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for KYSS Castle_VLM 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Hallway.lz4" 2 0 13 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Focus Book.lz4" 2 0 12 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cinema.lz4" 2 0 11 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Atrium.lz4" 2 0 10 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Romantasy.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden Plants.lz4" 2 0 14 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cozy Romance.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Hidden Room.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Statues.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cozy Fireplace.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden Stage Wall.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Romantic Comedy.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - New Adult.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_KYSS Castle_LM0.lz4" 2 0 7 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_13_0_30" 68 0 13 batchpointlight_13_0_30.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_13_31_34" 68 0 13 batchpointlight_13_31_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway" 4 0 13 comp_13.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_lights_Dir.lz4" 64 0 13 dircomp_13.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_12_0_34" 68 0 12 batchpointlight_12_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book" 4 0 12 comp_12.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_lights_Dir.lz4" 64 0 12 dircomp_12.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_11_0_34" 68 0 11 batchpointlight_11_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema" 4 0 11 comp_11.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_lights_Dir.lz4" 64 0 11 dircomp_11.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_10_0_34" 68 0 10 batchpointlight_10_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium" 4 0 10 comp_10.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_lights_Dir.lz4" 64 0 10 dircomp_10.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_9_0_34" 68 0 9 batchpointlight_9_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy" 4 0 9 comp_9.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_lights_Dir.lz4" 64 0 9 dircomp_9.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_8_0_34" 68 0 8 batchpointlight_8_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden" 4 0 8 comp_8.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_lights_Dir.lz4" 64 0 8 dircomp_8.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_14_0_34" 68 0 14 batchpointlight_14_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants" 4 0 14 comp_14.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_lights_Dir.lz4" 64 0 14 dircomp_14.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_0_0_34" 68 0 0 batchpointlight_0_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_6_0_30" 68 0 6 batchpointlight_6_0_30.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_6_31_34" 68 0 6 batchpointlight_6_31_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room" 4 0 6 comp_6.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_lights_Dir.lz4" 64 0 6 dircomp_6.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_5_0_34" 68 0 5 batchpointlight_5_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues" 4 0 5 comp_5.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_lights_Dir.lz4" 64 0 5 dircomp_5.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_4_0_34" 68 0 4 batchpointlight_4_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace" 4 0 4 comp_4.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall" 4 0 3 comp_3.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_2_0_34" 68 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy" 4 0 2 comp_2.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_1_0_34" 68 0 1 batchpointlight_1_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_16_0_30" 1924 0 16 batchpointlight_16_0_30.bin
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_16_31_34" 1924 0 16 batchpointlight_16_31_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "probes" 4 0 16 comp_16.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_15_0_30" 68 0 15 batchpointlight_15_0_30.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_15_31_34" 68 0 15 batchpointlight_15_31_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM" 4 0 15 comp_15.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_lights_Dir.lz4" 64 0 15 dircomp_15.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_7_0_34" 68 0 7 batchpointlight_7_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0" 4 0 7 comp_7.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_lights_Dir.lz4" 64 0 7 dircomp_7.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway0.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book0.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema0.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium0.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy0.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden0.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants0.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance0.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room0.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues0.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace0.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall0.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy0.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult0.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM0.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM00.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway1.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book1.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema1.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium1.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy1.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden1.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants1.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance1.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room1.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues1.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace1.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall1.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy1.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult1.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM1.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM01.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway2.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book2.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema2.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium2.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy2.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden2.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants2.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance2.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room2.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues2.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace2.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall2.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy2.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult2.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM2.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM02.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway3.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book3.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema3.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium3.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy3.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden3.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants3.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance3.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room3.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues3.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace3.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall3.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy3.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult3.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM3.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM03.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_final" 68 16 13 "gi_LM - Hallway4.bin" "LM - Hallway_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_final" 68 16 12 "gi_LM - Focus Book4.bin" "LM - Focus Book_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_final" 68 16 11 "gi_LM - Cinema4.bin" "LM - Cinema_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_final" 68 16 10 "gi_LM - Atrium4.bin" "LM - Atrium_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_final" 68 16 9 "gi_LM - Romantasy4.bin" "LM - Romantasy_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_final" 68 16 8 "gi_LM - Wintergarden4.bin" "LM - Wintergarden_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_final" 68 16 14 "gi_LM - Wintergarden Plants4.bin" "LM - Wintergarden Plants_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_final" 68 16 0 "gi_LM - Cozy Romance4.bin" "LM - Cozy Romance_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_final" 68 16 6 "gi_LM - Hidden Room4.bin" "LM - Hidden Room_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_final" 68 16 5 "gi_LM - Statues4.bin" "LM - Statues_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_final" 68 16 4 "gi_LM - Cozy Fireplace4.bin" "LM - Cozy Fireplace_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_final" 68 16 3 "gi_LM - Wintergarden Stage Wall4.bin" "LM - Wintergarden Stage Wall_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_final" 68 16 2 "gi_LM - Romantic Comedy4.bin" "LM - Romantic Comedy_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_final" 68 16 1 "gi_LM - New Adult4.bin" "LM - New Adult_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\cause\AppData\Local\Temp\frender" "probes_final" 1924 16 16 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_final" 68 16 15 "gi_KYSS Castle_VLM4.bin" "KYSS Castle_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_final" 68 16 7 "gi_KYSS Castle_LM04.bin" "KYSS Castle_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "13" "LM - Hallway_final_HDR.lz4" "LM - Hallway_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "12" "LM - Focus Book_final_HDR.lz4" "LM - Focus Book_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "11" "LM - Cinema_final_HDR.lz4" "LM - Cinema_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "10" "LM - Atrium_final_HDR.lz4" "LM - Atrium_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "9" "LM - Romantasy_final_HDR.lz4" "LM - Romantasy_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "8" "LM - Wintergarden_final_HDR.lz4" "LM - Wintergarden_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "14" "LM - Wintergarden Plants_final_HDR.lz4" "LM - Wintergarden Plants_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "0" "LM - Cozy Romance_final_HDR.lz4" "LM - Cozy Romance_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "6" "LM - Hidden Room_final_HDR.lz4" "LM - Hidden Room_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "5" "LM - Statues_final_HDR.lz4" "LM - Statues_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "4" "LM - Cozy Fireplace_final_HDR.lz4" "LM - Cozy Fireplace_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "3" "LM - Wintergarden Stage Wall_final_HDR.lz4" "LM - Wintergarden Stage Wall_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "2" "LM - Romantic Comedy_final_HDR.lz4" "LM - Romantic Comedy_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "1" "LM - New Adult_final_HDR.lz4" "LM - New Adult_final_Dir.lz4
+Running ftraceRTX addsh "C:\Users\cause\AppData\Local\Temp\frender" "probes_final_" 4 0 16 shcomp_16.bin
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "7" "KYSS Castle_LM0_final_HDR.lz4" "KYSS Castle_LM0_final_Dir.lz4
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hallway_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hallway_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Focus Book_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Focus Book_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cinema_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cinema_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Atrium_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Atrium_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantasy_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantasy_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Plants_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Plants_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Romance_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Romance_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hidden Room_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hidden Room_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Statues_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Statues_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Fireplace_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Fireplace_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Stage Wall_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Stage Wall_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/KYSS Castle_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/KYSS Castle_LM0_dir.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for LM - Cozy Romance 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - New Adult 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Romantic Comedy 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden Stage Wall 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cozy Fireplace 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Statues 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Hidden Room 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for KYSS Castle_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Romantasy 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Atrium 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cinema 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Focus Book 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Hallway 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden Plants 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for KYSS Castle_VLM 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Hallway.lz4" 2 0 13 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Focus Book.lz4" 2 0 12 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cinema.lz4" 2 0 11 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Atrium.lz4" 2 0 10 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Romantasy.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden Plants.lz4" 2 0 14 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cozy Romance.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Hidden Room.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Statues.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cozy Fireplace.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden Stage Wall.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Romantic Comedy.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - New Adult.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_KYSS Castle_LM0.lz4" 2 0 7 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_13_0_30" 68 0 13 batchpointlight_13_0_30.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_13_31_34" 68 0 13 batchpointlight_13_31_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway" 4 0 13 comp_13.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_lights_Dir.lz4" 64 0 13 dircomp_13.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_12_0_34" 68 0 12 batchpointlight_12_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book" 4 0 12 comp_12.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_lights_Dir.lz4" 64 0 12 dircomp_12.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_11_0_34" 68 0 11 batchpointlight_11_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema" 4 0 11 comp_11.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_lights_Dir.lz4" 64 0 11 dircomp_11.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_10_0_34" 68 0 10 batchpointlight_10_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium" 4 0 10 comp_10.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_lights_Dir.lz4" 64 0 10 dircomp_10.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_9_0_34" 68 0 9 batchpointlight_9_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy" 4 0 9 comp_9.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_lights_Dir.lz4" 64 0 9 dircomp_9.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_8_0_34" 68 0 8 batchpointlight_8_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden" 4 0 8 comp_8.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_lights_Dir.lz4" 64 0 8 dircomp_8.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_14_0_34" 68 0 14 batchpointlight_14_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants" 4 0 14 comp_14.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_lights_Dir.lz4" 64 0 14 dircomp_14.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_0_0_34" 68 0 0 batchpointlight_0_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_6_0_30" 68 0 6 batchpointlight_6_0_30.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_6_31_34" 68 0 6 batchpointlight_6_31_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room" 4 0 6 comp_6.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_lights_Dir.lz4" 64 0 6 dircomp_6.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_5_0_34" 68 0 5 batchpointlight_5_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues" 4 0 5 comp_5.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_lights_Dir.lz4" 64 0 5 dircomp_5.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_4_0_34" 68 0 4 batchpointlight_4_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace" 4 0 4 comp_4.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall" 4 0 3 comp_3.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_2_0_34" 68 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy" 4 0 2 comp_2.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_1_0_34" 68 0 1 batchpointlight_1_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_16_0_30" 1924 0 16 batchpointlight_16_0_30.bin
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_16_31_34" 1924 0 16 batchpointlight_16_31_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "probes" 4 0 16 comp_16.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_15_0_30" 68 0 15 batchpointlight_15_0_30.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_15_31_34" 68 0 15 batchpointlight_15_31_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM" 4 0 15 comp_15.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_lights_Dir.lz4" 64 0 15 dircomp_15.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_7_0_34" 68 0 7 batchpointlight_7_0_34.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0" 4 0 7 comp_7.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_lights_Dir.lz4" 64 0 7 dircomp_7.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway0.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book0.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema0.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium0.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy0.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden0.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants0.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance0.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room0.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues0.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace0.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall0.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy0.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult0.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM0.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM00.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway1.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book1.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema1.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium1.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy1.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden1.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants1.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance1.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room1.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues1.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace1.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall1.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy1.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult1.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM1.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM01.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway2.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book2.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema2.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium2.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy2.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden2.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants2.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance2.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room2.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues2.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace2.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall2.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy2.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult2.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM2.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM02.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway3.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book3.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema3.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium3.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy3.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden3.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants3.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance3.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room3.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues3.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace3.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall3.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy3.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult3.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM3.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM03.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_final" 68 16 13 "gi_LM - Hallway4.bin" "LM - Hallway_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_final" 68 16 12 "gi_LM - Focus Book4.bin" "LM - Focus Book_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_final" 68 16 11 "gi_LM - Cinema4.bin" "LM - Cinema_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_final" 68 16 10 "gi_LM - Atrium4.bin" "LM - Atrium_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_final" 68 16 9 "gi_LM - Romantasy4.bin" "LM - Romantasy_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_final" 68 16 8 "gi_LM - Wintergarden4.bin" "LM - Wintergarden_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_final" 68 16 14 "gi_LM - Wintergarden Plants4.bin" "LM - Wintergarden Plants_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_final" 68 16 0 "gi_LM - Cozy Romance4.bin" "LM - Cozy Romance_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_final" 68 16 6 "gi_LM - Hidden Room4.bin" "LM - Hidden Room_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_final" 68 16 5 "gi_LM - Statues4.bin" "LM - Statues_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_final" 68 16 4 "gi_LM - Cozy Fireplace4.bin" "LM - Cozy Fireplace_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_final" 68 16 3 "gi_LM - Wintergarden Stage Wall4.bin" "LM - Wintergarden Stage Wall_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_final" 68 16 2 "gi_LM - Romantic Comedy4.bin" "LM - Romantic Comedy_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_final" 68 16 1 "gi_LM - New Adult4.bin" "LM - New Adult_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\cause\AppData\Local\Temp\frender" "probes_final" 1924 16 16 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_final" 68 16 15 "gi_KYSS Castle_VLM4.bin" "KYSS Castle_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_final" 68 16 7 "gi_KYSS Castle_LM04.bin" "KYSS Castle_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "13" "LM - Hallway_final_HDR.lz4" "LM - Hallway_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "12" "LM - Focus Book_final_HDR.lz4" "LM - Focus Book_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "11" "LM - Cinema_final_HDR.lz4" "LM - Cinema_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "10" "LM - Atrium_final_HDR.lz4" "LM - Atrium_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "9" "LM - Romantasy_final_HDR.lz4" "LM - Romantasy_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "8" "LM - Wintergarden_final_HDR.lz4" "LM - Wintergarden_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "14" "LM - Wintergarden Plants_final_HDR.lz4" "LM - Wintergarden Plants_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "0" "LM - Cozy Romance_final_HDR.lz4" "LM - Cozy Romance_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "6" "LM - Hidden Room_final_HDR.lz4" "LM - Hidden Room_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "5" "LM - Statues_final_HDR.lz4" "LM - Statues_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "4" "LM - Cozy Fireplace_final_HDR.lz4" "LM - Cozy Fireplace_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "3" "LM - Wintergarden Stage Wall_final_HDR.lz4" "LM - Wintergarden Stage Wall_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "2" "LM - Romantic Comedy_final_HDR.lz4" "LM - Romantic Comedy_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "1" "LM - New Adult_final_HDR.lz4" "LM - New Adult_final_Dir.lz4
+Running ftraceRTX addsh "C:\Users\cause\AppData\Local\Temp\frender" "probes_final_" 4 0 16 shcomp_16.bin
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "7" "KYSS Castle_LM0_final_HDR.lz4" "KYSS Castle_LM0_final_Dir.lz4
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hallway_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hallway_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Focus Book_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Focus Book_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cinema_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cinema_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Atrium_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Atrium_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantasy_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantasy_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Plants_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Plants_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Romance_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Romance_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hidden Room_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hidden Room_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Statues_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Statues_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Fireplace_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Fireplace_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Stage Wall_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Stage Wall_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/KYSS Castle_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/KYSS Castle_LM0_dir.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for LM - Cozy Romance 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - New Adult 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Romantic Comedy 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden Stage Wall 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cozy Fireplace 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Statues 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Hidden Room 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for KYSS Castle_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Romantasy 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Atrium 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cinema 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Focus Book 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Hallway 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden Plants 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for KYSS Castle_VLM 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Hallway.lz4" 2 0 13 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Focus Book.lz4" 2 0 12 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cinema.lz4" 2 0 11 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Atrium.lz4" 2 0 10 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Romantasy.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden Plants.lz4" 2 0 14 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cozy Romance.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Hidden Room.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Statues.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cozy Fireplace.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden Stage Wall.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Romantic Comedy.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - New Adult.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_KYSS Castle_LM0.lz4" 2 0 7 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_13_0_31" 68 0 13 batchpointlight_13_0_31.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_13_32_35" 68 0 13 batchpointlight_13_32_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway" 4 0 13 comp_13.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_lights_Dir.lz4" 64 0 13 dircomp_13.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_12_0_35" 68 0 12 batchpointlight_12_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book" 4 0 12 comp_12.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_lights_Dir.lz4" 64 0 12 dircomp_12.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_11_0_35" 68 0 11 batchpointlight_11_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema" 4 0 11 comp_11.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_lights_Dir.lz4" 64 0 11 dircomp_11.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_10_0_35" 68 0 10 batchpointlight_10_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium" 4 0 10 comp_10.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_lights_Dir.lz4" 64 0 10 dircomp_10.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_9_0_35" 68 0 9 batchpointlight_9_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy" 4 0 9 comp_9.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_lights_Dir.lz4" 64 0 9 dircomp_9.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_8_0_35" 68 0 8 batchpointlight_8_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden" 4 0 8 comp_8.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_lights_Dir.lz4" 64 0 8 dircomp_8.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_14_0_35" 68 0 14 batchpointlight_14_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants" 4 0 14 comp_14.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_lights_Dir.lz4" 64 0 14 dircomp_14.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_0_0_35" 68 0 0 batchpointlight_0_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_6_0_31" 68 0 6 batchpointlight_6_0_31.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_6_32_35" 68 0 6 batchpointlight_6_32_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room" 4 0 6 comp_6.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_lights_Dir.lz4" 64 0 6 dircomp_6.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_5_0_35" 68 0 5 batchpointlight_5_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues" 4 0 5 comp_5.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_lights_Dir.lz4" 64 0 5 dircomp_5.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_4_0_35" 68 0 4 batchpointlight_4_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace" 4 0 4 comp_4.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall" 4 0 3 comp_3.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_2_0_35" 68 0 2 batchpointlight_2_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy" 4 0 2 comp_2.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_1_0_35" 68 0 1 batchpointlight_1_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_16_0_31" 1924 0 16 batchpointlight_16_0_31.bin
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_16_32_35" 1924 0 16 batchpointlight_16_32_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "probes" 4 0 16 comp_16.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_15_0_31" 68 0 15 batchpointlight_15_0_31.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_15_32_35" 68 0 15 batchpointlight_15_32_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM" 4 0 15 comp_15.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_lights_Dir.lz4" 64 0 15 dircomp_15.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_7_0_35" 68 0 7 batchpointlight_7_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0" 4 0 7 comp_7.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_lights_Dir.lz4" 64 0 7 dircomp_7.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway0.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book0.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema0.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium0.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy0.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden0.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants0.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance0.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room0.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues0.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace0.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall0.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy0.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult0.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM0.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM00.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway1.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book1.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema1.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium1.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy1.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden1.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants1.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance1.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room1.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues1.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace1.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall1.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy1.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult1.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM1.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM01.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway2.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book2.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema2.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium2.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy2.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden2.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants2.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance2.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room2.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues2.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace2.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall2.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy2.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult2.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM2.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM02.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway3.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book3.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema3.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium3.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy3.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden3.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants3.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance3.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room3.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues3.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace3.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall3.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy3.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult3.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM3.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM03.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_final" 68 16 13 "gi_LM - Hallway4.bin" "LM - Hallway_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_final" 68 16 12 "gi_LM - Focus Book4.bin" "LM - Focus Book_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_final" 68 16 11 "gi_LM - Cinema4.bin" "LM - Cinema_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_final" 68 16 10 "gi_LM - Atrium4.bin" "LM - Atrium_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_final" 68 16 9 "gi_LM - Romantasy4.bin" "LM - Romantasy_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_final" 68 16 8 "gi_LM - Wintergarden4.bin" "LM - Wintergarden_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_final" 68 16 14 "gi_LM - Wintergarden Plants4.bin" "LM - Wintergarden Plants_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_final" 68 16 0 "gi_LM - Cozy Romance4.bin" "LM - Cozy Romance_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_final" 68 16 6 "gi_LM - Hidden Room4.bin" "LM - Hidden Room_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_final" 68 16 5 "gi_LM - Statues4.bin" "LM - Statues_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_final" 68 16 4 "gi_LM - Cozy Fireplace4.bin" "LM - Cozy Fireplace_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_final" 68 16 3 "gi_LM - Wintergarden Stage Wall4.bin" "LM - Wintergarden Stage Wall_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_final" 68 16 2 "gi_LM - Romantic Comedy4.bin" "LM - Romantic Comedy_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_final" 68 16 1 "gi_LM - New Adult4.bin" "LM - New Adult_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\cause\AppData\Local\Temp\frender" "probes_final" 1924 16 16 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_final" 68 16 15 "gi_KYSS Castle_VLM4.bin" "KYSS Castle_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_final" 68 16 7 "gi_KYSS Castle_LM04.bin" "KYSS Castle_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "13" "LM - Hallway_final_HDR.lz4" "LM - Hallway_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "12" "LM - Focus Book_final_HDR.lz4" "LM - Focus Book_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "11" "LM - Cinema_final_HDR.lz4" "LM - Cinema_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "10" "LM - Atrium_final_HDR.lz4" "LM - Atrium_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "9" "LM - Romantasy_final_HDR.lz4" "LM - Romantasy_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "8" "LM - Wintergarden_final_HDR.lz4" "LM - Wintergarden_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "14" "LM - Wintergarden Plants_final_HDR.lz4" "LM - Wintergarden Plants_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "0" "LM - Cozy Romance_final_HDR.lz4" "LM - Cozy Romance_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "6" "LM - Hidden Room_final_HDR.lz4" "LM - Hidden Room_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "5" "LM - Statues_final_HDR.lz4" "LM - Statues_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "4" "LM - Cozy Fireplace_final_HDR.lz4" "LM - Cozy Fireplace_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "3" "LM - Wintergarden Stage Wall_final_HDR.lz4" "LM - Wintergarden Stage Wall_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "2" "LM - Romantic Comedy_final_HDR.lz4" "LM - Romantic Comedy_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "1" "LM - New Adult_final_HDR.lz4" "LM - New Adult_final_Dir.lz4
+Running ftraceRTX addsh "C:\Users\cause\AppData\Local\Temp\frender" "probes_final_" 4 0 16 shcomp_16.bin
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "7" "KYSS Castle_LM0_final_HDR.lz4" "KYSS Castle_LM0_final_Dir.lz4
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hallway_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hallway_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Focus Book_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Focus Book_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cinema_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cinema_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Atrium_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Atrium_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantasy_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantasy_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Plants_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Plants_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Romance_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Romance_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hidden Room_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hidden Room_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Statues_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Statues_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Fireplace_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Fireplace_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Stage Wall_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Stage Wall_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/KYSS Castle_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/KYSS Castle_LM0_dir.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+Rendering UV GBuffer for LM - Cozy Romance 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - New Adult 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Romantic Comedy 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden Stage Wall 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cozy Fireplace 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Statues 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Hidden Room 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for KYSS Castle_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Romantasy 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Atrium 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Cinema 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Focus Book 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Hallway 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LM - Wintergarden Plants 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for KYSS Castle_VLM 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Hallway.lz4" 2 0 13 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Focus Book.lz4" 2 0 12 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cinema.lz4" 2 0 11 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Atrium.lz4" 2 0 10 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Romantasy.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden Plants.lz4" 2 0 14 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cozy Romance.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Hidden Room.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Statues.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Cozy Fireplace.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Wintergarden Stage Wall.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - Romantic Comedy.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_LM - New Adult.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\cause\AppData\Local\Temp\frender" "uvpos_KYSS Castle_LM0.lz4" 2 0 7 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_13_0_31" 68 0 13 batchpointlight_13_0_31.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_13_32_35" 68 0 13 batchpointlight_13_32_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway" 4 0 13 comp_13.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_lights_Dir.lz4" 64 0 13 dircomp_13.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_12_0_35" 68 0 12 batchpointlight_12_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book" 4 0 12 comp_12.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_lights_Dir.lz4" 64 0 12 dircomp_12.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_11_0_35" 68 0 11 batchpointlight_11_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema" 4 0 11 comp_11.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_lights_Dir.lz4" 64 0 11 dircomp_11.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_10_0_35" 68 0 10 batchpointlight_10_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium" 4 0 10 comp_10.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_lights_Dir.lz4" 64 0 10 dircomp_10.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_9_0_35" 68 0 9 batchpointlight_9_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy" 4 0 9 comp_9.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_lights_Dir.lz4" 64 0 9 dircomp_9.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_8_0_35" 68 0 8 batchpointlight_8_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden" 4 0 8 comp_8.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_lights_Dir.lz4" 64 0 8 dircomp_8.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_14_0_35" 68 0 14 batchpointlight_14_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants" 4 0 14 comp_14.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_lights_Dir.lz4" 64 0 14 dircomp_14.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_0_0_35" 68 0 0 batchpointlight_0_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_6_0_31" 68 0 6 batchpointlight_6_0_31.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_6_32_35" 68 0 6 batchpointlight_6_32_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room" 4 0 6 comp_6.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_lights_Dir.lz4" 64 0 6 dircomp_6.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_5_0_35" 68 0 5 batchpointlight_5_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues" 4 0 5 comp_5.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_lights_Dir.lz4" 64 0 5 dircomp_5.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_4_0_35" 68 0 4 batchpointlight_4_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace" 4 0 4 comp_4.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall" 4 0 3 comp_3.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_2_0_35" 68 0 2 batchpointlight_2_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy" 4 0 2 comp_2.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_1_0_35" 68 0 1 batchpointlight_1_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_16_0_31" 1924 0 16 batchpointlight_16_0_31.bin
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_16_32_35" 1924 0 16 batchpointlight_16_32_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "probes" 4 0 16 comp_16.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_15_0_31" 68 0 15 batchpointlight_15_0_31.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_15_32_35" 68 0 15 batchpointlight_15_32_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM" 4 0 15 comp_15.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_lights_Dir.lz4" 64 0 15 dircomp_15.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\cause\AppData\Local\Temp\frender" "PointBatch_7_0_35" 68 0 7 batchpointlight_7_0_35.bin
+Running ftraceRTX addmul "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0" 4 0 7 comp_7.bin
+Running ftraceRTX diradd "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_lights_Dir.lz4" 64 0 7 dircomp_7.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway0.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book0.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema0.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium0.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy0.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden0.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants0.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance0.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room0.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues0.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace0.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall0.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy0.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult0.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM0.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM00.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway1.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book1.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema1.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium1.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy1.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden1.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants1.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance1.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room1.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues1.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace1.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall1.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy1.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult1.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM1.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM01.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway2.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book2.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema2.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium2.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy2.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden2.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants2.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance2.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room2.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues2.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace2.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall2.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy2.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult2.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM2.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM02.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_diffuse" 4 16 13 "gi_LM - Hallway3.bin" "LM - Hallway_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_diffuse" 4 16 12 "gi_LM - Focus Book3.bin" "LM - Focus Book_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_diffuse" 4 16 11 "gi_LM - Cinema3.bin" "LM - Cinema_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_diffuse" 4 16 10 "gi_LM - Atrium3.bin" "LM - Atrium_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_diffuse" 4 16 9 "gi_LM - Romantasy3.bin" "LM - Romantasy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_diffuse" 4 16 8 "gi_LM - Wintergarden3.bin" "LM - Wintergarden_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_diffuse" 4 16 14 "gi_LM - Wintergarden Plants3.bin" "LM - Wintergarden Plants_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_diffuse" 4 16 0 "gi_LM - Cozy Romance3.bin" "LM - Cozy Romance_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_diffuse" 4 16 6 "gi_LM - Hidden Room3.bin" "LM - Hidden Room_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_diffuse" 4 16 5 "gi_LM - Statues3.bin" "LM - Statues_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_diffuse" 4 16 4 "gi_LM - Cozy Fireplace3.bin" "LM - Cozy Fireplace_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_diffuse" 4 16 3 "gi_LM - Wintergarden Stage Wall3.bin" "LM - Wintergarden Stage Wall_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_diffuse" 4 16 2 "gi_LM - Romantic Comedy3.bin" "LM - Romantic Comedy_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_diffuse" 4 16 1 "gi_LM - New Adult3.bin" "LM - New Adult_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_diffuse" 4 16 15 "gi_KYSS Castle_VLM3.bin" "KYSS Castle_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_diffuse" 4 16 7 "gi_KYSS Castle_LM03.bin" "KYSS Castle_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hallway_final" 68 16 13 "gi_LM - Hallway4.bin" "LM - Hallway_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Focus Book_final" 68 16 12 "gi_LM - Focus Book4.bin" "LM - Focus Book_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cinema_final" 68 16 11 "gi_LM - Cinema4.bin" "LM - Cinema_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Atrium_final" 68 16 10 "gi_LM - Atrium4.bin" "LM - Atrium_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantasy_final" 68 16 9 "gi_LM - Romantasy4.bin" "LM - Romantasy_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden_final" 68 16 8 "gi_LM - Wintergarden4.bin" "LM - Wintergarden_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Plants_final" 68 16 14 "gi_LM - Wintergarden Plants4.bin" "LM - Wintergarden Plants_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Romance_final" 68 16 0 "gi_LM - Cozy Romance4.bin" "LM - Cozy Romance_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Hidden Room_final" 68 16 6 "gi_LM - Hidden Room4.bin" "LM - Hidden Room_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Statues_final" 68 16 5 "gi_LM - Statues4.bin" "LM - Statues_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Cozy Fireplace_final" 68 16 4 "gi_LM - Cozy Fireplace4.bin" "LM - Cozy Fireplace_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Wintergarden Stage Wall_final" 68 16 3 "gi_LM - Wintergarden Stage Wall4.bin" "LM - Wintergarden Stage Wall_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - Romantic Comedy_final" 68 16 2 "gi_LM - Romantic Comedy4.bin" "LM - Romantic Comedy_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "LM - New Adult_final" 68 16 1 "gi_LM - New Adult4.bin" "LM - New Adult_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\cause\AppData\Local\Temp\frender" "probes_final" 1924 16 16 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_VLM_final" 68 16 15 "gi_KYSS Castle_VLM4.bin" "KYSS Castle_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\cause\AppData\Local\Temp\frender" "KYSS Castle_LM0_final" 68 16 7 "gi_KYSS Castle_LM04.bin" "KYSS Castle_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "13" "LM - Hallway_final_HDR.lz4" "LM - Hallway_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "12" "LM - Focus Book_final_HDR.lz4" "LM - Focus Book_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "11" "LM - Cinema_final_HDR.lz4" "LM - Cinema_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "10" "LM - Atrium_final_HDR.lz4" "LM - Atrium_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "9" "LM - Romantasy_final_HDR.lz4" "LM - Romantasy_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "8" "LM - Wintergarden_final_HDR.lz4" "LM - Wintergarden_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "14" "LM - Wintergarden Plants_final_HDR.lz4" "LM - Wintergarden Plants_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "0" "LM - Cozy Romance_final_HDR.lz4" "LM - Cozy Romance_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "6" "LM - Hidden Room_final_HDR.lz4" "LM - Hidden Room_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "5" "LM - Statues_final_HDR.lz4" "LM - Statues_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "4" "LM - Cozy Fireplace_final_HDR.lz4" "LM - Cozy Fireplace_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "3" "LM - Wintergarden Stage Wall_final_HDR.lz4" "LM - Wintergarden Stage Wall_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "2" "LM - Romantic Comedy_final_HDR.lz4" "LM - Romantic Comedy_final_Dir.lz4
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "1" "LM - New Adult_final_HDR.lz4" "LM - New Adult_final_Dir.lz4
+Running ftraceRTX addsh "C:\Users\cause\AppData\Local\Temp\frender" "probes_final_" 4 0 16 shcomp_16.bin
+Running denoiserOIDN2 D "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" 2048 0
+Running denoiserOIDN2 c "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\cause\AppData\Local\Temp\frender" "7" "KYSS Castle_LM0_final_HDR.lz4" "KYSS Castle_LM0_final_Dir.lz4
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hallway_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Hallway_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hallway_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Focus Book_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Focus Book_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Focus Book_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cinema_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cinema_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cinema_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Atrium_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Atrium_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Atrium_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantasy_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantasy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantasy_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Plants_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Plants_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Plants_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Romance_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Romance_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Romance_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hidden Room_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Hidden Room_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Hidden Room_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Statues_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Statues_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Statues_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Fireplace_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Cozy Fireplace_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Cozy Fireplace_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Stage Wall_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Wintergarden Stage Wall_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Wintergarden Stage Wall_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - Romantic Comedy_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - Romantic Comedy_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/LM - New Adult_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/LM - New Adult_dir.tga" 
+Running halffloat2hdr "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_HDR.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/KYSS Castle_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\cause\AppData\Local\Temp\frender/KYSS Castle_LM0_final_Dir.lz4" "W:/vrchat-kysscastle/Unity/Assets/_KYSS/Scenes/KYSS Castle/KYSS Castle_LM0_dir.tga" 

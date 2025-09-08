@@ -8,14 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Crystal Ball
-  m_Shader: {fileID: 4800000, guid: 9829e18681954944a8b25de9b080a0b6, type: 3}
+  m_Shader: {fileID: 4800000, guid: 4e0228a9881ad6b44a66f3aa15cfe964, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _EMISSION
-  - _LIGHTMAPSPECULAR
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - _BAKERY_NONE
+  - _EMISSION
+  - _LIGHTMAPSPECULAR
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -78,6 +78,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RotatingTexture:
+        m_Texture: {fileID: 2800000, guid: d3d802da62b77487f9af4062873b5fc7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StaticTexture:
+        m_Texture: {fileID: 2800000, guid: 5c63222f9a185453ca19499b5431082f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 65a75adf2de73bf4eaa3c0d25ef6cf68, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _AlphaToMaskMode: 0
@@ -97,19 +109,24 @@ Material:
     - _LTCGI: 0
     - _LightmapSpecular: 1
     - _LightmapSpecularMaxSmoothness: 0.9
-    - _Metallic: 0
+    - _Metallic: 1
     - _Mode: 0
     - _NormalMapShadows: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RotationSpeed: 0.0033
+    - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TimeScale: 0
     - _UVSec: 0
     - _ZWrite: 1
+    - __dirty: 1
     - _specularAntiAliasingThreshold: 0.25
     - _specularAntiAliasingVariance: 0.15
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 1.6393628, g: 5.9921575, b: 5.9555793, a: 100}
+    - _ColorTint: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1.9495418, g: 7.125916, b: 7.082417, a: 100}
   m_BuildTextureStacks: []
