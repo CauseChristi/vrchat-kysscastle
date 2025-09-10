@@ -99,6 +99,7 @@ Material:
     - _BumpScale: 1
     - _BumpShadowHardness: 50
     - _BumpShadowHeightScale: 0.2
+    - _Cull: 1
     - _CullMode: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1

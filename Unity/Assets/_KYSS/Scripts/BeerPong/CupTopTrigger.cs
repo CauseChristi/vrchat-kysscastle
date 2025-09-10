@@ -1,8 +1,9 @@
-﻿// CupTopTrigger.cs
-using UdonSharp;
+﻿using UdonSharp;
 using UnityEngine;
+using VRC.SDKBase;
 
 [RequireComponent(typeof(Collider))]
+[UdonBehaviourSyncMode(BehaviourSyncMode.None)]
 public class CupTopTrigger : UdonSharpBehaviour
 {
     public BeerPongGameManager game;
@@ -10,6 +11,9 @@ public class CupTopTrigger : UdonSharpBehaviour
     public Team defendedBy = Team.Red;
     public int cupIndex = 0;
     public bool debug;
+
+    [Header("Networked Audio on this cup")]
+    public NetworkedAudio sfxTopHit;
 
     private bool _scored;
 
@@ -22,29 +26,32 @@ public class CupTopTrigger : UdonSharpBehaviour
     public void SetScored(bool on)
     {
         _scored = on;
-        gameObject.SetActive(!on); // disable this trigger once scored
+        gameObject.SetActive(!on);
         if (debug) Debug.Log("[CupTopTrigger] Cup " + defendedBy + "#" + cupIndex + " scored=" + on);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (_scored) { if (debug) Debug.Log("[CupTopTrigger] Already scored; ignoring."); return; }
+        if (_scored) return;
 
-        // Find the TeamBall (support child colliders)
         TeamBall ball = other.GetComponent<TeamBall>();
         if (ball == null) ball = other.GetComponentInParent<TeamBall>();
         if (ball == null) { if (debug) Debug.Log("[CupTopTrigger] No TeamBall on " + other.name); return; }
 
-        // Ignore our own team’s ball (prevents bounce-back self-light)
-        if (ball.team == defendedBy) { if (debug) Debug.Log("[CupTopTrigger] Ignoring own-team ball: " + ball.team); return; }
+        // Ignore own team's ball (bounce-back)
+        if (ball.team == defendedBy) { if (debug) Debug.Log("[CupTopTrigger] Ignoring own-team ball."); return; }
 
-        // Require center hit this possession
-        if (!ball.hasTouchedCenter) { if (debug) Debug.Log("[CupTopTrigger] Ball not center-armed yet."); return; }
+        // Must have center gate this possession
+        if (!ball.hasTouchedCenter) { if (debug) Debug.Log("[CupTopTrigger] Not center-armed."); return; }
 
-        // Valid: report to manager -> it will light the cup & update masks/scores
+        // Only the BALL OWNER should score + announce (prevents double fires)
+        if (!Networking.IsOwner(ball.gameObject)) return;
+
+        if (sfxTopHit != null) sfxTopHit.PlayForAll();
+
         if (game) game.RegisterCupScored(defendedBy, cupIndex, other.transform.position);
 
-        // Clear the per-ball gate for the next possession
+        // Clear per-ball gate for next possession
         ball.hasTouchedCenter = false;
     }
 }

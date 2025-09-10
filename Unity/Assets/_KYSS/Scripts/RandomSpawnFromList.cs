@@ -120,6 +120,13 @@ public class RandomSpawnFromList : UdonSharpBehaviour
         transform.position = src.position;   // world position
         transform.rotation = src.rotation;   // world rotation
 
+        // Inform the pickup on this same GameObject (if present)
+        VRCPickupRespawn respawn = GetComponent<VRCPickupRespawn>();
+        if (respawn != null)
+        {
+            respawn.CaptureCurrentAsSpawn();
+        }
+
         _applied = true;
 
         if (debugLogs)

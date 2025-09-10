@@ -3,6 +3,7 @@ using UnityEngine;
 using VRC.SDKBase;
 
 [RequireComponent(typeof(Collider))]
+[UdonBehaviourSyncMode(BehaviourSyncMode.None)]
 public class PlayerZone : UdonSharpBehaviour
 {
     public BeerPongGameManager game;

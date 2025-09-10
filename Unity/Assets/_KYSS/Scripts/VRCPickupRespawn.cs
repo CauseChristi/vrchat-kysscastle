@@ -8,14 +8,6 @@ using VRC.SDK3.Components;
 using VRC.SDKBase;
 using VRC.Udon;
 
-/*
-
-	TODO: 
-	- try replacing kinematics with simply disabling/enabling rb
-
-*/
-
-
 public class VRCPickupRespawn : UdonSharpBehaviour
 {
     // Audio / Visuals
@@ -30,10 +22,15 @@ public class VRCPickupRespawn : UdonSharpBehaviour
     private VRCPickup vrcPickup;
     private Rigidbody rb;
 	
+	
 	// Internal Timer
 	private bool touched = false;
 	public float timerDuration = 10f;
 	private float timeElapsed = 0f;
+
+	// Mini API
+	public bool lockSpawnAfterFirstCapture = true; // optional safety
+	private bool _spawnCapturedOnce = false;
 	
 	[UdonSynced, FieldChangeCallback(nameof(TimerActive))] 
 	private bool _timerActive = false;
@@ -272,6 +269,23 @@ public class VRCPickupRespawn : UdonSharpBehaviour
 		foreach (GameObject go in gameObjectsList) {
 			go.SetActive(false);
 		}
+	}
+
+	// === API FUNCTIONS ==================================
+
+	// Call this to set a new respawn pose (e.g., after random spawn picked)
+	public void SetRespawnPose(Vector3 pos, Quaternion rot)
+	{
+		if (lockSpawnAfterFirstCapture && _spawnCapturedOnce) return;
+		originalPosition = pos;
+		originalRotation = rot;
+		_spawnCapturedOnce = true;
+	}
+
+	// Convenience: set the current transform as the respawn pose
+	public void CaptureCurrentAsSpawn()
+	{
+		SetRespawnPose(transform.position, transform.rotation);
 	}
 
 

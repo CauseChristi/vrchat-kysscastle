@@ -9,12 +9,15 @@ Shader "Cause/Rotating Skybox"
 		_RotationSpeed("Rotation Speed", Float) = 0.0033
 		_ColorTint("Color Tint", Color) = (0,0,0,0)
 		[HideInInspector] __dirty( "", Int ) = 1
+
+		// Add a dropdown enum for culling
+		[Enum(Back,2, Front,1, Off,0)] _Cull("Culling", Float) = 2
 	}
 
 	SubShader
 	{
 		Tags{ "RenderType" = "Opaque"  "Queue" = "Geometry+0" "IsEmissive" = "true"  }
-		Cull Off
+		Cull [_Cull]
 		CGPROGRAM
 		#include "UnityShaderVariables.cginc"
 		#pragma target 3.0

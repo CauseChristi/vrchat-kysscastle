@@ -1,66 +1,80 @@
 ﻿using UdonSharp;
 using UnityEngine;
 using VRC.SDKBase;
+using VRC.SDK3.Components;   // <-- add this
 
+[UdonBehaviourSyncMode(BehaviourSyncMode.None)]
 [RequireComponent(typeof(VRC_Pickup))]
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(VRCObjectSync))]   // <-- update this
 public class TeamBall : UdonSharpBehaviour
 {
     public BeerPongGameManager game;
     public Team team = Team.Red;
 
-    public CenterGate centerGate; // (optional) if you want direct reset calls too
+    [Header("Networked Audio on this ball")]
+    public NetworkedAudio sfxPickup;
+    public NetworkedAudio sfxBounce;
+    public NetworkedAudio sfxCenterSuccess;
+
+    public CenterGate centerGate;
 
     private VRC_Pickup _pickup;
-    private Rigidbody _rb;
+    private VRCObjectSync _sync;   // <-- update type
 
-    [HideInInspector] public bool hasTouchedCenter; // gate flag for scoring
-    private bool _enabledForTurn;
+    [HideInInspector] public bool hasTouchedCenter;
 
     private void Start()
     {
-        _pickup = (VRC_Pickup)GetComponent(typeof(VRC_Pickup));
-        _rb = (Rigidbody)GetComponent(typeof(Rigidbody));
+        _pickup = GetComponent<VRC_Pickup>();
+        _sync   = GetComponent<VRCObjectSync>();  // <-- update type
         SetBallEnabled(false);
     }
 
     public void SetBallEnabled(bool on)
     {
-        _enabledForTurn = on;
         gameObject.SetActive(on);
         if (!on) hasTouchedCenter = false;
+        RPC_SeatsChanged();
+    }
+
+    public void RPC_SeatsChanged()
+    {
+        bool can = (game != null) && game.CanPickupBall(Networking.LocalPlayer, team);
+        if (_pickup != null) _pickup.pickupable = can;
     }
 
     public override void OnPickup()
     {
-        var p = Networking.LocalPlayer;
-        // Only allow pickup if it's our team's turn AND this is our assigned player
-        if (game && !game.CanPickupBall(p, team))
+        if (_pickup == null) return;
+        var lp = Networking.LocalPlayer;
+
+        if (game && !game.CanPickupBall(lp, team))
         {
-            // Not your turn → drop immediately
-            if (_pickup != null) _pickup.Drop();
+            _pickup.Drop();
             return;
         }
-        if (game) game.OnBallPickup(team, transform.position);
-    }
 
-    public override void OnDrop()
-    {
-        // no-op
+        if (!Networking.IsOwner(gameObject) && lp != null)
+            Networking.SetOwner(lp, gameObject);
+
+        if (sfxPickup != null) sfxPickup.PlayForAll();
     }
 
     private void OnCollisionEnter(Collision c)
     {
-        if (c != null && game != null)
-        {
-            game.OnBallBounce(c.GetContact(0).point);
-        }
+        if (!Networking.IsOwner(gameObject)) return;
+        if (sfxBounce != null) sfxBounce.PlayForAll();
     }
 
-    // Called by your existing respawn script when it returns the ball
+    public void CenterSuccessLocal()
+    {
+        hasTouchedCenter = true;
+        if (sfxCenterSuccess != null) sfxCenterSuccess.PlayForAll();
+    }
+
     public void OnBallRespawned()
     {
-        // Clear the center gate requirement for this possession
         hasTouchedCenter = false;
         if (centerGate != null) centerGate.ResetGate();
     }
