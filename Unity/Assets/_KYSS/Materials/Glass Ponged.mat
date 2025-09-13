@@ -112,6 +112,6 @@ Material:
     - _specularAntiAliasingThreshold: 0.25
     - _specularAntiAliasingVariance: 0.15
     m_Colors:
-    - _Color: {r: 0.57678825, g: 1, b: 0, a: 0.3529412}
-    - _EmissionColor: {r: 0.30839062, g: 1, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.3529412}
+    - _EmissionColor: {r: 0.8113208, g: 0.22706771, b: 0.74716765, a: 0}
   m_BuildTextureStacks: []

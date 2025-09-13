@@ -135,6 +135,7 @@ MonoBehaviour:
   defendedBy: 0
   cupIndex: 1
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &9142183416476965616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,6 +297,7 @@ MonoBehaviour:
   defendedBy: 0
   cupIndex: 2
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &5205939512752093744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -895,7 +897,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 7198503058401699820}
-  game: {fileID: 4970906879363022259}
   debug: 0
 --- !u!114 &7198503058401699820
 MonoBehaviour:
@@ -1735,6 +1736,7 @@ MonoBehaviour:
   defendedBy: 1
   cupIndex: 1
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &986531315067650101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2106,6 +2108,7 @@ MonoBehaviour:
   defendedBy: 0
   cupIndex: 4
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &5823357516817572216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2267,6 +2270,7 @@ MonoBehaviour:
   defendedBy: 1
   cupIndex: 4
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &2541209056131520144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2497,16 +2501,8 @@ MonoBehaviour:
   - {fileID: 3739790821189954203}
   cupMatNormal: {fileID: 2100000, guid: d77653d3f53a23c4f89e3dea299cc4d7, type: 2}
   cupMatLit: {fileID: 2100000, guid: 2a3c55fbc7f37654ebd4dab7ca347d8d, type: 2}
-  audioPool: {fileID: 741788583204275816}
-  sfxPlayerActivate: {fileID: 0}
-  sfxPlayerDeactivate: {fileID: 0}
-  sfxGameStart: {fileID: 0}
-  sfxBallPickup: {fileID: 0}
-  sfxBallBounce: {fileID: 8300000, guid: 90ae1583bd0c0d0409b248c7be30ef07, type: 3}
-  sfxHitCupSide: {fileID: 0}
-  sfxHitCupTop: {fileID: 0}
-  sfxCenterSuccess: {fileID: 0}
-  sfxRoundWin: {fileID: 0}
+  sfxGameStartAll: {fileID: 0}
+  sfxPointAwardAll: {fileID: 0}
   confettiPool: []
   redNameText: {fileID: 6551846859889400845}
   blueNameText: {fileID: 8239192349442725600}
@@ -2673,6 +2669,7 @@ MonoBehaviour:
   defendedBy: 0
   cupIndex: 0
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &1629898409909879638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3158,6 +3155,7 @@ MonoBehaviour:
   defendedBy: 1
   cupIndex: 0
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &9003744751956032947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3455,6 +3453,7 @@ MonoBehaviour:
   defendedBy: 0
   cupIndex: 3
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &5016150872972488010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4129,6 +4128,7 @@ MonoBehaviour:
   defendedBy: 1
   cupIndex: 5
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &7750735486667374113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4716,6 +4716,7 @@ MonoBehaviour:
   defendedBy: 1
   cupIndex: 3
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &8810167355978709312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5117,6 +5118,7 @@ MonoBehaviour:
   defendedBy: 0
   cupIndex: 5
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &8181667843049950741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5278,6 +5280,7 @@ MonoBehaviour:
   defendedBy: 1
   cupIndex: 2
   debug: 0
+  sfxTopHit: {fileID: 0}
 --- !u!114 &7980840569744780867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5964,6 +5967,7 @@ GameObject:
   - component: {fileID: 3871160579001960306}
   - component: {fileID: 1293010828725267126}
   - component: {fileID: 8980999866011934970}
+  - component: {fileID: 6894877712056527709}
   m_Layer: 13
   m_Name: Ball - Red
   m_TagString: Untagged
@@ -6194,6 +6198,9 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 3871160579001960306}
   game: {fileID: 4970906879363022259}
   team: 0
+  sfxPickup: {fileID: 0}
+  sfxBounce: {fileID: 0}
+  sfxCenterSuccess: {fileID: 0}
   centerGate: {fileID: 19133319005828508}
   hasTouchedCenter: 0
 --- !u!114 &3871160579001960306
@@ -6293,6 +6300,20 @@ MonoBehaviour:
   serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
   publicVariablesUnityEngineObjects: []
   publicVariablesSerializationDataFormat: 0
+--- !u!114 &6894877712056527709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8607976999541450434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1783056023, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllowCollisionOwnershipTransfer: 1
+  ForceKinematicOnRemote: 0
 --- !u!1 &8831774918777898846
 GameObject:
   m_ObjectHideFlags: 0
@@ -6418,8 +6439,7 @@ GameObject:
   - component: {fileID: 1474034097307403283}
   - component: {fileID: 1037239603538762054}
   - component: {fileID: 3545078665668107946}
-  - component: {fileID: 2389889521453798801}
-  - component: {fileID: 3353556891664573068}
+  - component: {fileID: 2786453905713803139}
   m_Layer: 13
   m_Name: Ball - Blue
   m_TagString: Untagged
@@ -6650,6 +6670,9 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 3545078665668107946}
   game: {fileID: 4970906879363022259}
   team: 1
+  sfxPickup: {fileID: 0}
+  sfxBounce: {fileID: 0}
+  sfxCenterSuccess: {fileID: 0}
   centerGate: {fileID: 19133319005828508}
   hasTouchedCenter: 0
 --- !u!114 &3545078665668107946
@@ -6678,7 +6701,7 @@ MonoBehaviour:
   serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
   publicVariablesUnityEngineObjects: []
   publicVariablesSerializationDataFormat: 0
---- !u!114 &2389889521453798801
+--- !u!114 &2786453905713803139
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6687,65 +6710,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8982635742774230914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf950a60ad1c528408f9eb68f31b8ce9, type: 3}
+  m_Script: {fileID: -1783056023, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  _udonSharpBackingUdonBehaviour: {fileID: 3353556891664573068}
-  takeOwnershipOfOtherObjectsOnCollision: 0
-  allowOthersToTakeOwnershipOnCollision: 0
-  allowTheftFromSelf: 1
-  syncParticleCollisions: 0
-  respawnHeight: -100
-  printDebugMessages: 0
-  performanceModeCollisions: 1
-  worldSpaceTeleport: 0
-  worldSpaceSleep: 1
-  worldSpacePhysics: 1
-  forceContinuousSpeculative: 1
-  kinematicWhileHeld: 1
-  nonKinematicPickupJitterPreventionTime: 0
-  reduceJitterDuringSleep: 1
-  preventStealWhileAttachedToPlayer: 1
-  respawnIntoStartingState: 1
-  startingState: {fileID: 0}
-  checkSyncTimes: 0
-  pickup: {fileID: 6476893318327562940}
-  rigid: {fileID: 7941512988511471798}
-  states: []
-  listeners: []
-  SetupRan: 1
---- !u!114 &3353556891664573068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8982635742774230914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactTextPlacement: {fileID: 0}
-  interactText: Use
-  interactTextGO: {fileID: 0}
-  proximity: 2
-  SynchronizePosition: 0
-  AllowCollisionOwnershipTransfer: 0
-  Reliable: 0
-  _syncMethod: 3
-  serializedProgramAsset: {fileID: 11400000, guid: 085a2821f7ec6c44580c866613ca6aa6,
-    type: 2}
-  programSource: {fileID: 11400000, guid: 5590289dbbc8c9e4383d1d53c095e59c, type: 2}
-  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
-  publicVariablesUnityEngineObjects: []
-  publicVariablesSerializationDataFormat: 0
+  AllowCollisionOwnershipTransfer: 1
+  ForceKinematicOnRemote: 0

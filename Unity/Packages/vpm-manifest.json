@@ -26,6 +26,9 @@
     },
     "dev.architech.videoplayershim": {
       "version": "1.4.0"
+    },
+    "dev.architech.umbrella": {
+      "version": "0.8.4"
     }
   },
   "locked": {
@@ -78,6 +81,13 @@
       "version": "1.4.0",
       "dependencies": {
         "com.vrchat.worlds": "^3.3"
+      }
+    },
+    "dev.architech.umbrella": {
+      "version": "0.8.4",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.3",
+        "dev.architech.sdk": ">=0.18.1"
       }
     }
   }

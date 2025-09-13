@@ -3,7 +3,6 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.SDK3.Components;   // <-- add this
 
-[UdonBehaviourSyncMode(BehaviourSyncMode.None)]
 [RequireComponent(typeof(VRC_Pickup))]
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(VRCObjectSync))]   // <-- update this

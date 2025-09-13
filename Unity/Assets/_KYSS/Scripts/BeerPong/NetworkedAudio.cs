@@ -2,7 +2,6 @@
 using UnityEngine;
 using VRC.Udon;
 
-[UdonBehaviourSyncMode(BehaviourSyncMode.None)]
 public class NetworkedAudio : UdonSharpBehaviour
 {
     public AudioSource src;

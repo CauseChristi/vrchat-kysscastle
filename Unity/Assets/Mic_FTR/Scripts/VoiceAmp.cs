@@ -15,10 +15,11 @@ public class VoiceAmp : UdonSharpBehaviour
     [Header("Mic Amplifier Settings")]
     public string tagString = "";
 
-    public GeneralWhitelist generalWhitelist;
     public bool whitelistedOnly = false;
+    bool playerIsWhitelisted = false;
+    public string[] whitelist = new string[] { };
 
-    bool isEnabled = false;
+    bool isEnabled = true;
 
     [Header("Debug")]
     public bool debugMode = false;
@@ -44,7 +45,7 @@ public class VoiceAmp : UdonSharpBehaviour
     {
         if (isEnabled)
         {
-            if (whitelistedOnly && !generalWhitelist.IsPlayerWhitelisted(player)) return;
+            if (whitelistedOnly && !IsPlayerWhitelisted(player)) return;
             PlayerEntersAmp(player, tagString, "true");
         }
     }
@@ -53,7 +54,7 @@ public class VoiceAmp : UdonSharpBehaviour
     {
         if (isEnabled)
         {
-            if (whitelistedOnly && !generalWhitelist.IsPlayerWhitelisted(player)) return;
+            if (whitelistedOnly && !IsPlayerWhitelisted(player)) return;
             PlayerExitsAmp(player, tagString);
         }
     }
@@ -64,6 +65,16 @@ public class VoiceAmp : UdonSharpBehaviour
         player.SetVoiceGain(gain);
         player.SetVoiceLowpass(lowpass);
         player.SetPlayerTag(tag, tagValue);
+    }
+
+    private bool IsPlayerWhitelisted(VRCPlayerApi player)
+    {
+        foreach (string playerInList in whitelist)
+        {
+            if (player.displayName == playerInList || playerIsWhitelisted)
+                return true;
+        }
+        return false;
     }
 
     public void PlayerEntersAmp(VRCPlayerApi player, string tag, string tagValue)
@@ -159,6 +170,11 @@ public class VoiceAmp : UdonSharpBehaviour
             if (LEDIndicator) LEDIndicator.material.DisableKeyword("_EMISSION");
             ResetAllAmpedPlayersVoices();
         }
+    }
+
+    public void EnableWhitelisted()
+    {
+        playerIsWhitelisted = true;
     }
 
     public void ResetAllAmpedPlayersVoices()

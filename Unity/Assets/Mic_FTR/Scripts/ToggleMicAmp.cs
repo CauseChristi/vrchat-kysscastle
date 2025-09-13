@@ -12,8 +12,9 @@ public class ToggleMicAmp : UdonSharpBehaviour
     [UdonSynced] private bool isMicAmpEnabled = false;
 
     [Header("Whitelist Settings")]
-    public GeneralWhitelist generalWhitelist;
+
     public bool whitelistOnly = false;
+    public string[] whitelist;
 
     public VoiceAmp voiceAmp;
 
@@ -28,9 +29,16 @@ public class ToggleMicAmp : UdonSharpBehaviour
         SetMicAmpEnabled();
     }
 
+    public bool IsPlayerWhitelisted(VRCPlayerApi player)
+    {
+        foreach (string whitelistedPlayer in whitelist)
+            if (player.displayName == whitelistedPlayer) return true;
+        return false;
+    }
+
     public void ToggleMicAmpEnabled()
     {
-        if (whitelistOnly && !generalWhitelist.IsPlayerWhitelisted(Networking.LocalPlayer)) return;
+        if (whitelistOnly && !IsPlayerWhitelisted(Networking.LocalPlayer)) return;
 
         if (!Networking.LocalPlayer.IsOwner(gameObject))
             Networking.SetOwner(Networking.LocalPlayer, gameObject);
